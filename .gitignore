@@ -39,3 +39,9 @@ dist/
 
 # Keep folders
 !data/.gitkeep
+
+*.pyc
+database/interview.db
+outputs/*.csv
+outputs/*.xlsx
+outputs/*.parquet

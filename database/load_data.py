@@ -1,199 +1,123 @@
 from pathlib import Path
-
 import duckdb
 
-# ------------------------------------------------------------------
-# Paths
-# ------------------------------------------------------------------
+# ============================================================
+# PATHS
+# ============================================================
 
-DATABASE_FILE = Path("database/hotel_booking.duckdb")
-SCHEMA_FILE = Path("database/schema.sql")
-DATA_FOLDER = Path("data")
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
 
-# ------------------------------------------------------------------
-# Database Connection
-# ------------------------------------------------------------------
+DATABASE_FILE = PROJECT_ROOT / "database" / "interview.db"
+SCHEMA_FILE = PROJECT_ROOT / "schema" / "schema.sql"
+DATA_FOLDER = PROJECT_ROOT / "data" / "raw"
+
+# ============================================================
+# DATABASE CONNECTION
+# ============================================================
 
 def get_connection() -> duckdb.DuckDBPyConnection:
+    """Create DuckDB connection."""
+    return duckdb.connect(str(DATABASE_FILE))
+
+# ============================================================
+# LOAD SINGLE TABLE
+# ============================================================
+
+def load_table(connection: duckdb.DuckDBPyConnection, table_name: str) -> int:
     """
-    Create DuckDB connection.
-    """
-
-    DATABASE_FILE.parent.mkdir(
-        parents=True,
-        exist_ok=True
-    )
-
-    return duckdb.connect(
-        DATABASE_FILE
-    )
-
-# ------------------------------------------------------------------
-# Schema
-# ------------------------------------------------------------------
-
-def create_schema(
-    connection: duckdb.DuckDBPyConnection
-) -> None:
-    """
-    Execute schema.sql.
-    """
-
-    print("\nCreating database schema...")
-
-    sql = SCHEMA_FILE.read_text(
-        encoding="utf-8"
-    )
-
-    connection.execute(sql)
-
-    print("Schema created.")
-
-# ------------------------------------------------------------------
-# CSV Loader
-# ------------------------------------------------------------------
-
-def load_table(
-    connection: duckdb.DuckDBPyConnection,
-    table_name: str
-) -> int:
-    """
-    Load CSV into DuckDB table.
-
-    Returns
-    -------
-    int
-        Rows loaded.
+    Load CSV into DuckDB using COPY.
     """
 
     csv_file = DATA_FOLDER / f"{table_name}.csv"
 
-    connection.execute(
-        f"""
-        INSERT INTO {table_name}
-        SELECT *
-        FROM read_csv_auto(
-            '{csv_file.as_posix()}',
-            HEADER=TRUE
+    if not csv_file.exists():
+        raise FileNotFoundError(f"CSV not found: {csv_file}")
+
+    connection.execute(f"DELETE FROM {table_name}")
+
+    connection.execute(f"""
+        COPY {table_name}
+        FROM '{csv_file.as_posix()}'
+        (
+            AUTO_DETECT TRUE,
+            HEADER TRUE
         )
-        """
-    )
+    """)
 
     row_count = connection.execute(
-        f"""
-        SELECT COUNT(*)
-        FROM {table_name}
-        """
+        f"SELECT COUNT(*) FROM {table_name}"
     ).fetchone()[0]
 
-    print(
-        f"{table_name:<15} {row_count:>10,} rows"
-    )
+    print(f"✓ {table_name:<15} {row_count:>10,} rows loaded")
 
     return row_count
 
-# ------------------------------------------------------------------
-# Load Data
-# ------------------------------------------------------------------
+# ============================================================
+# LOAD ALL TABLES
+# ============================================================
 
-def load_all_tables(
-    connection: duckdb.DuckDBPyConnection
-) -> dict:
-    """
-    Load all datasets.
-    """
-
-    print("\nLoading datasets...\n")
+def load_all_tables(connection):
 
     tables = [
-
         "customers",
-
         "hotels",
-
         "products",
-
         "bookings",
-
         "payments",
-
         "reviews",
-
         "order_items"
-
     ]
 
     summary = {}
 
-    for table in tables:
+    print("\nLoading datasets...\n")
 
-        summary[table] = load_table(
-            connection,
-            table
-        )
+    for table in tables:
+        summary[table] = load_table(connection, table)
 
     return summary
 
-# ------------------------------------------------------------------
-# Summary
-# ------------------------------------------------------------------
+# ============================================================
+# SUMMARY
+# ============================================================
 
-def print_summary(
-    summary: dict
-) -> None:
-    """
-    Print loading summary.
-    """
+def print_summary(summary):
 
-    print("\n")
-    print("=" * 55)
+    print("\n" + "=" * 60)
     print("DATABASE LOAD SUMMARY")
-    print("=" * 55)
+    print("=" * 60)
 
     total = 0
 
     for table, rows in summary.items():
 
-        print(
-            f"{table:<15} {rows:>10,}"
-        )
+        print(f"{table:<20}{rows:>10,}")
 
         total += rows
 
-    print("-" * 55)
+    print("-" * 60)
+    print(f"{'TOTAL':<20}{total:>10,}")
+    print("=" * 60)
 
-    print(
-        f"{'TOTAL':<15} {total:>10,}"
-    )
-
-    print("=" * 55)
-
-# ------------------------------------------------------------------
-# Main
-# ------------------------------------------------------------------
+# ============================================================
+# MAIN
+# ============================================================
 
 def main():
 
-    print("=" * 55)
+    print("=" * 60)
     print("HOTEL BOOKING DATABASE LOADER")
-    print("=" * 55)
+    print("=" * 60)
 
     connection = get_connection()
 
-    create_schema(connection)
+    summary = load_all_tables(connection)
 
-    summary = load_all_tables(
-        connection
-    )
-
-    print_summary(
-        summary
-    )
+    print_summary(summary)
 
     connection.close()
 
-    print("\nDatabase created successfully.")
-
+    print("\n✅ Database is ready for SQL practice.")
 
 if __name__ == "__main__":
     main()

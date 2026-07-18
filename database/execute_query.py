@@ -1,19 +1,77 @@
 from pathlib import Path
+import sys
+import time
 import duckdb
+import pandas as pd
 
-BASE_DIR = Path(__file__).resolve().parent.parent
+# ============================================================
+# PATHS
+# ============================================================
 
-DATABASE_PATH = BASE_DIR / "database" / "interview.db"
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
 
-conn = duckdb.connect(str(DATABASE_PATH))
+DATABASE_PATH = PROJECT_ROOT / "database" / "interview.db"
 
-QUERY_PATH = BASE_DIR / "sql" / "06_ctes.sql"
+DEFAULT_QUERY = PROJECT_ROOT / "sql" / "03_aggregations.sql"
 
-with open(QUERY_PATH, "r", encoding="utf-8") as file:
-    query = file.read()
+# ============================================================
+# EXECUTE QUERY
+# ============================================================
 
-result = conn.execute(query).fetchdf()
+def execute_sql(query_file: Path):
 
-print(result)
+    if not query_file.exists():
+        print(f"\n❌ SQL file not found:\n{query_file}")
+        return
 
-conn.close()
+    print("=" * 70)
+    print(f"Executing : {query_file.name}")
+    print("=" * 70)
+
+    with open(query_file, "r", encoding="utf-8") as f:
+        query = f.read()
+
+    connection = duckdb.connect(str(DATABASE_PATH))
+
+    start = time.perf_counter()
+
+    try:
+
+        result = connection.execute(query).fetchdf()
+
+        elapsed = time.perf_counter() - start
+
+        print(result)
+
+        print("\n" + "-" * 70)
+        print(f"Rows Returned : {len(result):,}")
+        print(f"Execution Time: {elapsed:.4f} seconds")
+        print("-" * 70)
+
+    except Exception as ex:
+
+        print("\n❌ Query Failed")
+        print(ex)
+
+    finally:
+
+        connection.close()
+
+# ============================================================
+# MAIN
+# ============================================================
+
+def main():
+
+    if len(sys.argv) > 1:
+
+        sql_file = PROJECT_ROOT / sys.argv[1]
+
+    else:
+
+        sql_file = DEFAULT_QUERY
+
+    execute_sql(sql_file)
+
+if __name__ == "__main__":
+    main()
