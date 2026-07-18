@@ -1,0 +1,101 @@
+hotel_id,hotel_name,hotel_chain,hotel_type,hotel_status,city,country,star_rating,room_count,average_occupancy_rate,opened_year,has_spa,has_pool,has_gym,created_at,updated_at
+HOT0001,Radisson London,Radisson,City,Active,London,United Kingdom,4,187,85,2014,False,False,True,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0002,Hyatt Hamburg,Hyatt,City,Active,Hamburg,Germany,3,81,73,2000,False,False,False,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0003,Radisson Chennai,Radisson,City,Active,Chennai,India,3,89,74,2000,True,True,False,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0004,Radisson Munich,Radisson,Business,Active,Munich,Germany,5,313,90,1999,True,True,True,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0005,Taj London,Taj,City,Active,London,United Kingdom,5,317,93,2007,True,True,True,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0006,Holiday Inn Madrid,Holiday Inn,City,Active,Madrid,Spain,3,102,65,2018,False,True,True,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0007,Marriott Rome,Marriott,City,Active,Rome,Italy,3,138,79,2013,False,False,True,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0008,Novotel Rome,Novotel,City,Active,Rome,Italy,4,199,90,1996,True,True,True,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0009,Novotel Utrecht,Novotel,City,Active,Utrecht,Netherlands,4,206,79,2015,True,True,True,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0010,Hilton Rotterdam,Hilton,City,Active,Rotterdam,Netherlands,4,156,79,2011,True,True,True,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0011,Novotel Madrid,Novotel,City,Active,Madrid,Spain,3,138,76,2007,False,False,True,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0012,Marriott Rome,Marriott,City,Active,Rome,Italy,5,264,91,2013,True,True,True,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0013,Novotel Amsterdam,Novotel,City,Renovation,Amsterdam,Netherlands,3,92,81,2001,False,False,False,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0014,Blue Madrid Hotel,Independent,City,Active,Madrid,Spain,4,195,79,2012,True,True,False,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0015,Taj Singapore,Taj,Business,Active,Singapore,Singapore,4,137,89,1999,True,True,True,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0016,Golden Rome Inn,Independent,City,Active,Rome,Italy,4,141,83,1996,True,True,True,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0017,Holiday Inn Chennai,Holiday Inn,City,Active,Chennai,India,4,201,86,1999,True,True,True,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0018,Marriott Rotterdam,Marriott,Airport,Active,Rotterdam,Netherlands,4,151,88,2023,False,False,True,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0019,Novotel London,Novotel,Business,Active,London,United Kingdom,3,75,69,2021,False,True,True,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0020,Imperial Chennai Hotel,Independent,Airport,Active,Chennai,India,4,169,88,2018,True,True,True,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0021,Taj Utrecht,Taj,City,Active,Utrecht,Netherlands,4,143,85,2021,False,True,True,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0022,Imperial Rome Hotel,Independent,City,Active,Rome,Italy,3,101,73,2022,False,False,True,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0023,Taj Lyon,Taj,Airport,Active,Lyon,France,5,233,91,2023,True,True,True,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0024,Novotel Amsterdam,Novotel,City,Active,Amsterdam,Netherlands,4,250,85,2024,True,True,True,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0025,Taj Madrid,Taj,City,Active,Madrid,Spain,3,101,74,2018,True,True,True,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0026,Radisson Bangalore,Radisson,Business,Active,Bangalore,India,4,181,87,2017,False,True,True,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0027,Hilton Dubai,Hilton,Resort,Active,Dubai,UAE,3,179,69,2003,False,False,True,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0028,Elite London Palace,Independent,Business,Active,London,United Kingdom,3,94,83,2007,False,True,True,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0029,Radisson Bangalore,Radisson,Airport,Active,Bangalore,India,3,174,73,2025,False,True,True,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0030,Regency Lyon Inn,Independent,Airport,Active,Lyon,France,4,196,80,2018,True,True,True,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0031,Taj Hamburg,Taj,Business,Active,Hamburg,Germany,4,174,78,2015,True,True,True,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0032,Marriott Milan,Marriott,City,Active,Milan,Italy,5,370,95,2015,True,True,True,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0033,Hilton Dubai,Hilton,Resort,Active,Dubai,UAE,3,89,79,2008,False,True,True,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0034,Marriott Milan,Marriott,City,Active,Milan,Italy,4,249,84,2012,True,False,True,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0035,Marriott London,Marriott,City,Active,London,United Kingdom,5,222,93,2003,True,True,True,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0036,Regency Paris Inn,Independent,City,Active,Paris,France,4,103,79,2015,True,True,True,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0037,Hilton Chennai,Hilton,Business,Active,Chennai,India,4,216,90,2013,False,False,True,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0038,Marriott Milan,Marriott,City,Active,Milan,Italy,4,121,81,2011,True,True,True,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0039,Hilton Madrid,Hilton,City,Active,Madrid,Spain,4,229,88,1999,True,True,False,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0040,Holiday Inn Manchester,Holiday Inn,Airport,Active,Manchester,United Kingdom,5,297,95,1996,True,True,True,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0041,Palm Barcelona Suites,Independent,Resort,Active,Barcelona,Spain,3,58,78,2022,False,True,True,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0042,Novotel Berlin,Novotel,Resort,Active,Berlin,Germany,3,175,65,2019,False,True,True,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0043,Palm Rome Palace,Independent,City,Active,Rome,Italy,5,308,86,2022,True,True,True,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0044,Marriott Utrecht,Marriott,Business,Active,Utrecht,Netherlands,5,259,84,2015,True,True,True,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0045,Marriott Lyon,Marriott,Airport,Active,Lyon,France,5,344,88,2011,True,True,True,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0046,Radisson Amsterdam,Radisson,Business,Active,Amsterdam,Netherlands,3,162,70,2007,False,False,True,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0047,Imperial Dubai Inn,Independent,Resort,Active,Dubai,UAE,3,100,81,2000,False,True,False,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0048,Royal Milan Resort,Independent,City,Active,Milan,Italy,3,60,74,2017,True,True,False,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0049,Blue Berlin Palace,Independent,Resort,Active,Berlin,Germany,5,299,84,2002,True,True,True,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0050,Palm Dubai Hotel,Independent,Resort,Active,Dubai,UAE,3,124,79,2014,False,False,True,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0051,Taj Rotterdam,Taj,Business,Active,Rotterdam,Netherlands,3,104,76,2020,False,True,True,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0052,Novotel Paris,Novotel,City,Active,Paris,France,4,220,78,2005,False,True,True,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0053,Taj Paris,Taj,City,Active,Paris,France,4,238,81,2018,False,True,True,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0054,Marriott Lyon,Marriott,City,Active,Lyon,France,4,158,88,2009,False,False,True,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0055,Holiday Inn Singapore,Holiday Inn,City,Active,Singapore,Singapore,3,102,75,2020,False,False,True,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0056,Royal Barcelona Palace,Independent,Resort,Active,Barcelona,Spain,3,73,74,2006,False,True,True,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0057,Novotel Manchester,Novotel,Resort,Active,Manchester,United Kingdom,3,172,77,2008,False,True,False,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0058,Radisson Lyon,Radisson,Airport,Active,Lyon,France,4,248,88,2013,False,False,True,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0059,Taj Amsterdam,Taj,Business,Active,Amsterdam,Netherlands,3,127,80,2023,False,False,True,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0060,Marriott London,Marriott,City,Active,London,United Kingdom,3,170,68,2000,False,False,True,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0061,Marriott Hamburg,Marriott,Business,Active,Hamburg,Germany,5,250,86,1991,True,True,True,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0062,Hyatt Barcelona,Hyatt,Resort,Active,Barcelona,Spain,4,180,86,2004,True,True,True,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0063,Holiday Inn Rotterdam,Holiday Inn,Business,Active,Rotterdam,Netherlands,4,164,88,2006,False,True,True,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0064,Taj Chennai,Taj,Business,Active,Chennai,India,4,236,76,2001,False,False,True,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0065,Regency Barcelona Palace,Independent,Resort,Active,Barcelona,Spain,5,314,92,1994,True,True,True,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0066,Radisson Singapore,Radisson,City,Active,Singapore,Singapore,4,153,77,2018,True,True,True,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0067,Elite London Hotel,Independent,Business,Active,London,United Kingdom,4,132,82,2017,True,True,True,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0068,Hilton Dubai,Hilton,Resort,Active,Dubai,UAE,3,81,69,2016,False,True,False,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0069,Holiday Inn Bangalore,Holiday Inn,Airport,Active,Bangalore,India,4,169,88,2019,False,False,True,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0070,Grand Rome Palace,Independent,City,Active,Rome,Italy,3,84,66,2016,False,False,True,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0071,Blue Munich Palace,Independent,City,Active,Munich,Germany,4,152,89,1999,True,True,True,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0072,Taj London,Taj,City,Renovation,London,United Kingdom,3,138,67,2007,False,False,False,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0073,Regency Barcelona Resort,Independent,Resort,Active,Barcelona,Spain,5,184,95,1995,True,True,True,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0074,Hilton Utrecht,Hilton,Resort,Active,Utrecht,Netherlands,4,220,79,2015,True,True,True,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0075,Radisson Manchester,Radisson,Resort,Active,Manchester,United Kingdom,4,189,90,2000,False,False,False,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0076,Taj Lyon,Taj,Business,Active,Lyon,France,3,112,77,2006,True,False,True,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0077,Blue Rotterdam Palace,Independent,Resort,Active,Rotterdam,Netherlands,5,290,86,2000,True,True,True,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0078,Elite Lyon Suites,Independent,Business,Active,Lyon,France,4,170,79,2013,True,True,True,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0079,Taj Bangalore,Taj,Airport,Active,Bangalore,India,5,297,89,1993,True,True,True,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0080,Royal Hamburg Inn,Independent,City,Active,Hamburg,Germany,4,116,87,1997,True,True,True,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0081,Holiday Inn Hamburg,Holiday Inn,Business,Active,Hamburg,Germany,4,149,86,2016,True,True,False,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0082,Royal Dubai Resort,Independent,Resort,Active,Dubai,UAE,3,132,71,2000,False,True,True,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0083,Grand Barcelona Suites,Independent,Resort,Active,Barcelona,Spain,3,78,69,2011,False,False,True,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0084,Novotel Munich,Novotel,City,Active,Munich,Germany,4,127,77,2014,True,True,True,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0085,Novotel Manchester,Novotel,Airport,Active,Manchester,United Kingdom,4,176,85,1998,True,True,True,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0086,Marriott Berlin,Marriott,Resort,Active,Berlin,Germany,3,118,69,2016,False,False,True,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0087,Hyatt Lyon,Hyatt,Resort,Active,Lyon,France,3,176,69,2009,False,False,True,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0088,Holiday Inn Berlin,Holiday Inn,Resort,Active,Berlin,Germany,3,167,79,2013,False,True,True,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0089,Novotel Rotterdam,Novotel,City,Active,Rotterdam,Netherlands,5,276,88,2007,True,True,True,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0090,Marriott Rotterdam,Marriott,Resort,Active,Rotterdam,Netherlands,3,99,67,2001,False,True,True,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0091,Taj Milan,Taj,City,Active,Milan,Italy,4,226,90,2009,True,True,True,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0092,Holiday Inn Hamburg,Holiday Inn,Airport,Active,Hamburg,Germany,4,230,86,1997,True,True,True,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0093,Grand Madrid Suites,Independent,City,Active,Madrid,Spain,4,168,90,2019,True,True,True,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0094,Marriott Amsterdam,Marriott,Business,Active,Amsterdam,Netherlands,5,371,82,1990,True,True,True,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0095,Hilton Munich,Hilton,City,Active,Munich,Germany,3,131,70,2018,False,False,True,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0096,Grand Lyon Suites,Independent,City,Active,Lyon,France,4,179,78,2009,True,True,True,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0097,Royal Lyon Hotel,Independent,Airport,Active,Lyon,France,5,290,87,2008,True,True,True,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0098,Taj Amsterdam,Taj,Business,Active,Amsterdam,Netherlands,3,124,72,2003,False,False,True,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0099,Taj Dubai,Taj,Resort,Active,Dubai,UAE,3,118,68,2004,False,True,False,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
+HOT0100,Novotel Berlin,Novotel,City,Active,Berlin,Germany,4,151,82,2002,True,True,True,2026-07-18 08:44:51.408488,2026-07-18 08:44:51.408488
