@@ -1,6 +1,6 @@
 import duckdb
 
-conn = duckdb.connect("../database/interview.db")
+conn = duckdb.connect("interview.db")
 
 print("Connected Successfully!")
 

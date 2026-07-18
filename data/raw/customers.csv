@@ -1,0 +1,501 @@
+customer_id,customer_name,gender,date_of_birth,email,city,country,preferred_language,signup_date,loyalty_tier,traveler_type,customer_segment,signup_channel,is_active,created_at,updated_at
+CUS00001,Allison Hill,Female,1957-03-28,allison.hill1@example.com,London,United Kingdom,English,2024-02-18,Bronze,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00002,Megan Mcclain,Female,1968-02-03,megan.mcclain2@example.com,Amsterdam,Netherlands,Dutch,2023-07-25,Platinum,Frequent,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00003,Allen Robinson,Male,1957-07-16,allen.robinson3@example.com,Munich,Germany,German,2026-02-06,Bronze,Casual,Business,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00004,Cristian Santos,Male,1950-07-31,cristian.santos4@example.com,Paris,France,French,2025-04-28,Bronze,Casual,Leisure,Mobile App,False,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00005,Leah Pacheco,Female,1953-01-03,leah.pacheco5@example.com,Hamburg,Germany,German,2024-03-21,Bronze,Casual,Business,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00006,Gina Moore,Female,1966-10-24,gina.moore6@example.com,Barcelona,Spain,Spanish,2024-12-20,Bronze,Casual,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00007,James Howard,Male,1960-05-13,james.howard7@example.com,Munich,Germany,German,2024-02-08,Silver,Regular,Business,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00008,Amanda Stevens,Female,1966-02-18,amanda.stevens8@example.com,Hamburg,Germany,German,2021-10-05,Gold,Frequent,Business,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00009,Edward Fuller,Male,1987-12-10,edward.fuller9@example.com,Chennai,India,English,2025-01-28,Silver,Casual,Leisure,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00010,Michele Williams,Female,1977-03-30,michele.williams10@example.com,Madrid,Spain,Spanish,2021-01-01,Silver,Frequent,Business,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00011,Scott Delacruz MD,Male,1954-06-25,scott.delacruz.md11@example.com,Madrid,Spain,Spanish,2026-03-30,Bronze,Casual,Leisure,Mobile App,False,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00012,Carla Kelly,Female,1953-09-18,carla.kelly12@example.com,Chennai,India,English,2024-09-03,Bronze,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00013,Michael Jones,Male,2001-09-04,michael.jones13@example.com,Paris,France,French,2024-04-07,Bronze,Casual,Leisure,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00014,David Ford,Male,1966-04-15,david.ford14@example.com,Singapore,Singapore,English,2023-12-26,Platinum,Frequent,Business,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00015,Colleen Nguyen,Female,1960-10-25,colleen.nguyen15@example.com,Hamburg,Germany,German,2024-11-02,Silver,Regular,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00016,Rodney Trujillo,Male,1964-06-04,rodney.trujillo16@example.com,Milan,Italy,Italian,2024-09-04,Bronze,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00017,Susan Bradley,Female,1961-10-06,susan.bradley17@example.com,Munich,Germany,German,2024-11-16,Bronze,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00018,Kathryn Wilkerson,Female,2005-09-07,kathryn.wilkerson18@example.com,Berlin,Germany,German,2025-06-28,Silver,Casual,Business,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00019,Brenda Mcgee,Female,1966-07-29,brenda.mcgee19@example.com,Paris,France,French,2024-08-28,Bronze,Casual,Business,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00020,Jeffrey Silva,Male,1967-05-21,jeffrey.silva20@example.com,London,United Kingdom,English,2024-06-21,Bronze,Casual,Leisure,Mobile App,False,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00021,Mrs. Katherine Campos DVM,Female,2003-03-01,mrs..katherine.campos.dvm21@example.com,Paris,France,French,2023-11-17,Silver,Frequent,Leisure,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00022,Michael Carlson,Male,1973-05-30,michael.carlson22@example.com,Madrid,Spain,Spanish,2023-02-28,Platinum,Regular,Leisure,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00023,John King,Male,1999-08-03,john.king23@example.com,London,United Kingdom,English,2023-08-03,Bronze,Casual,Leisure,Mobile App,False,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00024,Ashley Dyer,Female,1995-10-19,ashley.dyer24@example.com,Hamburg,Germany,German,2024-09-03,Silver,Casual,Leisure,Corporate,False,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00025,Gerald Carter,Male,1976-03-02,gerald.carter25@example.com,Berlin,Germany,German,2023-06-20,Silver,Regular,Business,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00026,Nathan Cortez,Male,1967-07-14,nathan.cortez26@example.com,Milan,Italy,Italian,2024-04-19,Bronze,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00027,Ashley Garrett,Female,1991-11-23,ashley.garrett27@example.com,Utrecht,Netherlands,Dutch,2026-04-04,Gold,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00028,Christina Brooks,Female,1999-03-04,christina.brooks28@example.com,Singapore,Singapore,English,2025-10-31,Bronze,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00029,Tammy Sellers,Female,1985-08-21,tammy.sellers29@example.com,Rome,Italy,Italian,2022-12-01,Gold,Regular,Business,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00030,Ashley Cox,Female,1989-11-19,ashley.cox30@example.com,Dubai,UAE,Arabic,2024-12-20,Silver,Regular,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00031,Anthony Humphrey,Male,1966-01-31,anthony.humphrey31@example.com,Paris,France,French,2021-11-26,Gold,Regular,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00032,Robert Spence,Male,1952-07-25,robert.spence32@example.com,Lyon,France,French,2024-01-28,Bronze,Casual,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00033,Karen Pierce,Female,1998-04-13,karen.pierce33@example.com,Berlin,Germany,German,2025-10-13,Silver,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00034,Jay Lewis,Male,2002-07-29,jay.lewis34@example.com,Bangalore,India,English,2026-06-22,Bronze,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00035,Emily Carney,Female,1994-09-10,emily.carney35@example.com,London,United Kingdom,English,2023-02-16,Silver,Regular,Leisure,Website,False,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00036,Joseph Martinez,Male,1999-03-29,joseph.martinez36@example.com,Bangalore,India,English,2023-10-24,Silver,Casual,Leisure,Corporate,False,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00037,Kevin Hall,Male,1979-03-27,kevin.hall37@example.com,Dubai,UAE,Arabic,2021-07-27,Gold,Regular,Leisure,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00038,Mark Perez,Male,1964-12-17,mark.perez38@example.com,Berlin,Germany,German,2023-09-03,Bronze,Casual,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00039,Benjamin Young,Male,1965-09-17,benjamin.young39@example.com,Bangalore,India,English,2025-08-09,Bronze,Casual,Leisure,Website,False,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00040,Brandi Walls,Female,1978-08-10,brandi.walls40@example.com,Bangalore,India,English,2023-12-28,Bronze,Regular,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00041,Richard Aguirre,Male,2002-03-15,richard.aguirre41@example.com,Bangalore,India,English,2019-05-06,Silver,Frequent,Business,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00042,Jeffrey Henderson,Male,1950-07-01,jeffrey.henderson42@example.com,Milan,Italy,Italian,2019-01-01,Gold,Frequent,Business,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00043,Victoria Garcia,Female,1969-06-06,victoria.garcia43@example.com,London,United Kingdom,English,2024-12-25,Bronze,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00044,Ashley Lee,Female,1979-07-28,ashley.lee44@example.com,Lyon,France,French,2025-06-12,Platinum,Casual,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00045,Clifford Ford,Male,1989-12-06,clifford.ford45@example.com,Rome,Italy,Italian,2025-06-19,Gold,Regular,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00046,Robert Chase,Male,1966-02-07,robert.chase46@example.com,Lyon,France,French,2023-10-03,Bronze,Casual,Leisure,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00047,Kimberly Smith,Female,2005-02-06,kimberly.smith47@example.com,Chennai,India,English,2025-06-24,Bronze,Regular,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00048,Cynthia Russell,Female,1985-07-06,cynthia.russell48@example.com,Barcelona,Spain,Spanish,2022-06-13,Gold,Regular,Business,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00049,Stephanie Martin,Female,2003-01-01,stephanie.martin49@example.com,Singapore,Singapore,English,2023-03-14,Silver,Regular,Business,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00050,Richard Gibson,Male,2005-06-14,richard.gibson50@example.com,Berlin,Germany,German,2024-06-19,Silver,Frequent,Business,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00051,Whitney Peters,Female,1996-10-06,whitney.peters51@example.com,Madrid,Spain,Spanish,2023-08-11,Silver,Regular,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00052,Edward Novak,Male,1986-08-13,edward.novak52@example.com,Lyon,France,French,2023-02-25,Bronze,Frequent,Business,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00053,Erik Williams,Male,1979-07-05,erik.williams53@example.com,Munich,Germany,German,2023-09-05,Silver,Regular,Business,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00054,Joseph Brown,Male,1965-07-16,joseph.brown54@example.com,Paris,France,French,2023-11-18,Gold,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00055,Barry Jones,Male,1971-12-01,barry.jones55@example.com,Lyon,France,French,2020-07-16,Silver,Frequent,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00056,Todd Hudson,Male,1999-08-13,todd.hudson56@example.com,Hamburg,Germany,German,2026-01-25,Silver,Casual,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00057,Angela Sandoval,Female,1992-08-07,angela.sandoval57@example.com,Rotterdam,Netherlands,Dutch,2025-10-06,Silver,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00058,Dean Santiago,Male,1990-05-03,dean.santiago58@example.com,Amsterdam,Netherlands,Dutch,2024-07-21,Bronze,Casual,Business,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00059,Carlos Brewer,Male,1972-06-26,carlos.brewer59@example.com,Hamburg,Germany,German,2024-11-19,Bronze,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00060,Timothy Smith,Male,1962-08-30,timothy.smith60@example.com,Munich,Germany,German,2023-12-07,Platinum,Regular,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00061,Mrs. Christy Baker DVM,Female,1985-12-09,mrs..christy.baker.dvm61@example.com,Lyon,France,French,2023-10-31,Bronze,Casual,Leisure,Mobile App,False,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00062,Jacob Moore,Male,1984-11-19,jacob.moore62@example.com,Rome,Italy,Italian,2023-11-06,Silver,Regular,Business,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00063,Logan Archer,Male,1982-09-11,logan.archer63@example.com,Munich,Germany,German,2025-10-15,Gold,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00064,Ruth Evans,Female,1986-09-15,ruth.evans64@example.com,Barcelona,Spain,Spanish,2023-12-24,Bronze,Casual,Business,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00065,Chad Wilson,Male,1979-02-11,chad.wilson65@example.com,Milan,Italy,Italian,2025-11-22,Bronze,Casual,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00066,Douglas Clark,Male,1967-05-13,douglas.clark66@example.com,Dubai,UAE,Arabic,2022-05-28,Gold,Regular,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00067,Samuel Wagner,Male,1977-04-08,samuel.wagner67@example.com,Berlin,Germany,German,2025-05-22,Bronze,Regular,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00068,Anthony Walters,Male,1966-11-18,anthony.walters68@example.com,Bangalore,India,English,2022-09-18,Gold,Regular,Business,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00069,Gavin Anderson,Male,1999-04-12,gavin.anderson69@example.com,Chennai,India,English,2024-03-24,Bronze,Casual,Business,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00070,Juan Patterson,Male,1973-01-04,juan.patterson70@example.com,London,United Kingdom,English,2022-01-05,Bronze,Regular,Business,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00071,Sonya Mckee,Female,1955-07-31,sonya.mckee71@example.com,Chennai,India,English,2023-09-10,Bronze,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00072,Kevin Hernandez,Male,1992-02-19,kevin.hernandez72@example.com,Amsterdam,Netherlands,Dutch,2023-09-19,Gold,Casual,Business,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00073,Steven Flynn,Male,2005-12-01,steven.flynn73@example.com,Chennai,India,English,2023-09-16,Bronze,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00074,Daniel Wright,Male,1995-02-09,daniel.wright74@example.com,Munich,Germany,German,2025-01-16,Silver,Casual,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00075,Stacey Russell,Female,1982-08-30,stacey.russell75@example.com,Barcelona,Spain,Spanish,2024-03-13,Bronze,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00076,Cynthia Martin,Female,1998-11-07,cynthia.martin76@example.com,Manchester,United Kingdom,English,2024-04-17,Silver,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00077,Alexander Doyle,Male,1953-05-09,alexander.doyle77@example.com,London,United Kingdom,English,2025-04-16,Bronze,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00078,Sean Cochran,Male,1957-04-14,sean.cochran78@example.com,Utrecht,Netherlands,Dutch,2024-03-20,Bronze,Casual,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00079,Ashley Brennan,Female,1998-11-30,ashley.brennan79@example.com,Chennai,India,English,2023-07-17,Platinum,Regular,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00080,Ruth Stevens,Female,2003-04-29,ruth.stevens80@example.com,Dubai,UAE,Arabic,2024-07-04,Gold,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00081,Matthew Ross,Male,1998-04-19,matthew.ross81@example.com,Bangalore,India,English,2025-03-19,Bronze,Regular,Business,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00082,Patricia Bell,Female,1966-07-17,patricia.bell82@example.com,Rome,Italy,Italian,2023-03-28,Platinum,Regular,Business,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00083,Ryan Rivera,Male,1951-01-11,ryan.rivera83@example.com,Barcelona,Spain,Spanish,2024-01-12,Bronze,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00084,Debbie Carpenter,Female,1962-04-13,debbie.carpenter84@example.com,Bangalore,India,English,2023-09-14,Platinum,Casual,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00085,Jessica Chandler,Female,1966-05-02,jessica.chandler85@example.com,Rome,Italy,Italian,2023-05-24,Platinum,Regular,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00086,Jorge Cruz,Male,1951-08-12,jorge.cruz86@example.com,Singapore,Singapore,English,2024-05-07,Bronze,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00087,Michael Smith,Male,1962-12-26,michael.smith87@example.com,Hamburg,Germany,German,2024-12-19,Silver,Regular,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00088,Nathan Harmon,Male,1968-09-17,nathan.harmon88@example.com,Barcelona,Spain,Spanish,2024-05-18,Bronze,Casual,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00089,Benjamin Beck,Male,1983-05-09,benjamin.beck89@example.com,Rome,Italy,Italian,2026-03-11,Silver,Casual,Business,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00090,Sarah Cortez,Female,2002-04-27,sarah.cortez90@example.com,Hamburg,Germany,German,2025-09-11,Bronze,Casual,Leisure,Website,False,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00091,Jason Powell,Male,1954-04-25,jason.powell91@example.com,Amsterdam,Netherlands,Dutch,2025-11-24,Bronze,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00092,Jason Bentley,Male,1979-09-21,jason.bentley92@example.com,Amsterdam,Netherlands,Dutch,2024-09-20,Bronze,Regular,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00093,Lisa Turner,Female,1964-07-31,lisa.turner93@example.com,London,United Kingdom,English,2023-07-17,Gold,Casual,Leisure,Website,False,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00094,Christine Floyd,Female,1959-08-24,christine.floyd94@example.com,Bangalore,India,English,2024-02-10,Gold,Frequent,Business,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00095,Jessica Lowe,Female,1975-07-18,jessica.lowe95@example.com,Manchester,United Kingdom,English,2025-07-21,Bronze,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00096,Toni Fitzgerald,Female,1971-09-13,toni.fitzgerald96@example.com,Madrid,Spain,Spanish,2023-11-25,Bronze,Casual,Leisure,Mobile App,False,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00097,Mary Harvey,Female,1988-02-06,mary.harvey97@example.com,Hamburg,Germany,German,2024-07-15,Bronze,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00098,Courtney Gonzalez,Female,2001-01-10,courtney.gonzalez98@example.com,Berlin,Germany,German,2021-09-25,Bronze,Regular,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00099,John Atkinson,Male,1959-01-29,john.atkinson99@example.com,Chennai,India,English,2025-06-23,Silver,Casual,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00100,Lori Lee,Female,1994-09-28,lori.lee100@example.com,Barcelona,Spain,Spanish,2025-03-04,Bronze,Casual,Business,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00101,David Douglas,Male,1999-01-03,david.douglas101@example.com,Barcelona,Spain,Spanish,2023-12-29,Silver,Casual,Business,Website,False,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00102,Daniel Brock,Male,1960-09-27,daniel.brock102@example.com,Barcelona,Spain,Spanish,2025-09-28,Bronze,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00103,Justin Lowery,Male,1956-02-16,justin.lowery103@example.com,Utrecht,Netherlands,Dutch,2025-06-25,Bronze,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00104,John Schmidt,Male,1985-08-06,john.schmidt104@example.com,Barcelona,Spain,Spanish,2024-01-27,Gold,Regular,Business,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00105,Pedro Ramos,Male,1981-11-13,pedro.ramos105@example.com,Singapore,Singapore,English,2024-08-06,Silver,Regular,Business,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00106,Jeffery Meadows,Male,1965-06-22,jeffery.meadows106@example.com,Hamburg,Germany,German,2024-03-20,Silver,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00107,Karen Green,Female,1968-04-05,karen.green107@example.com,Utrecht,Netherlands,Dutch,2025-02-09,Bronze,Regular,Business,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00108,Ralph Boyd,Male,1994-09-01,ralph.boyd108@example.com,Singapore,Singapore,English,2024-07-22,Bronze,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00109,Angela Mitchell,Female,1976-04-15,angela.mitchell109@example.com,Chennai,India,English,2024-12-19,Bronze,Casual,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00110,Kimberly Taylor,Female,2000-03-30,kimberly.taylor110@example.com,Lyon,France,French,2023-03-03,Gold,Regular,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00111,Michelle Brown,Female,1967-06-08,michelle.brown111@example.com,Lyon,France,French,2024-12-12,Bronze,Casual,Business,Corporate,False,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00112,Jason Clark,Male,2003-06-13,jason.clark112@example.com,Milan,Italy,Italian,2025-03-13,Bronze,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00113,Lauren Dominguez,Female,1965-11-29,lauren.dominguez113@example.com,Singapore,Singapore,English,2025-12-27,Bronze,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00114,Aaron Bell,Male,1956-10-19,aaron.bell114@example.com,Hamburg,Germany,German,2023-03-13,Bronze,Regular,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00115,Troy Barnes,Male,1975-10-18,troy.barnes115@example.com,Bangalore,India,English,2024-08-30,Bronze,Regular,Business,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00116,Lindsey Walker,Female,1999-03-27,lindsey.walker116@example.com,Rotterdam,Netherlands,Dutch,2024-09-12,Bronze,Casual,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00117,Alyssa Rogers,Female,2000-09-20,alyssa.rogers117@example.com,Rome,Italy,Italian,2021-12-24,Gold,Frequent,Business,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00118,Sara Calhoun,Female,2001-08-30,sara.calhoun118@example.com,Dubai,UAE,Arabic,2023-10-23,Bronze,Regular,Business,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00119,Jennifer Elliott,Female,1980-01-11,jennifer.elliott119@example.com,Hamburg,Germany,German,2023-11-24,Bronze,Casual,Leisure,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00120,Chad Murray,Male,1971-01-20,chad.murray120@example.com,Lyon,France,French,2022-08-24,Silver,Regular,Business,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00121,Daniel Murphy,Male,1998-10-23,daniel.murphy121@example.com,Utrecht,Netherlands,Dutch,2021-10-06,Gold,Frequent,Business,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00122,Trevor Fisher,Male,1989-11-21,trevor.fisher122@example.com,Bangalore,India,English,2019-03-28,Silver,Frequent,Business,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00123,Paul Williams,Male,1983-05-16,paul.williams123@example.com,Rome,Italy,Italian,2024-06-29,Bronze,Casual,Leisure,Mobile App,False,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00124,Rachael Pearson,Female,1978-10-20,rachael.pearson124@example.com,Dubai,UAE,Arabic,2023-09-03,Bronze,Casual,Business,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00125,Curtis Smith,Male,1980-02-29,curtis.smith125@example.com,Berlin,Germany,German,2024-07-21,Platinum,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00126,Maureen Elliott,Female,1970-03-26,maureen.elliott126@example.com,Berlin,Germany,German,2025-07-08,Bronze,Casual,Business,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00127,Pamela Jackson,Female,1983-08-24,pamela.jackson127@example.com,Berlin,Germany,German,2024-01-10,Silver,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00128,Christopher Collins,Male,1989-08-13,christopher.collins128@example.com,Paris,France,French,2023-08-25,Bronze,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00129,Kenneth Odonnell,Male,1979-05-26,kenneth.odonnell129@example.com,Singapore,Singapore,English,2025-03-24,Gold,Casual,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00130,Craig Vargas,Male,1957-11-19,craig.vargas130@example.com,Manchester,United Kingdom,English,2026-03-17,Gold,Casual,Business,Corporate,False,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00131,Michael Turner,Male,1989-09-23,michael.turner131@example.com,Paris,France,French,2024-02-03,Bronze,Regular,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00132,Robert Knight,Male,1960-01-16,robert.knight132@example.com,Dubai,UAE,Arabic,2025-01-06,Silver,Casual,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00133,Mary Jones,Female,1980-09-08,mary.jones133@example.com,Barcelona,Spain,Spanish,2022-12-28,Bronze,Regular,Business,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00134,Jennifer Henry,Female,2005-06-18,jennifer.henry134@example.com,Rome,Italy,Italian,2025-01-29,Bronze,Casual,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00135,Ronald Zimmerman,Male,1993-06-19,ronald.zimmerman135@example.com,Manchester,United Kingdom,English,2022-04-15,Bronze,Regular,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00136,Tracie Nelson,Female,1961-11-10,tracie.nelson136@example.com,Rotterdam,Netherlands,Dutch,2025-10-30,Bronze,Casual,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00137,John Petersen,Male,1970-08-19,john.petersen137@example.com,Dubai,UAE,Arabic,2022-09-05,Gold,Regular,Business,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00138,David Michael,Male,1971-04-19,david.michael138@example.com,Madrid,Spain,Spanish,2025-06-16,Bronze,Casual,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00139,Julie Bishop,Female,1978-05-28,julie.bishop139@example.com,Rome,Italy,Italian,2024-12-20,Bronze,Casual,Business,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00140,Samuel White,Male,1975-03-24,samuel.white140@example.com,Barcelona,Spain,Spanish,2025-01-18,Silver,Casual,Business,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00141,Gina Beard,Female,1963-09-30,gina.beard141@example.com,Chennai,India,English,2025-04-13,Gold,Regular,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00142,Alexandra Vaughan,Female,1997-02-03,alexandra.vaughan142@example.com,Munich,Germany,German,2022-07-25,Silver,Regular,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00143,John Chang,Male,1974-09-26,john.chang143@example.com,Barcelona,Spain,Spanish,2023-07-25,Gold,Regular,Business,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00144,Katherine Mcguire,Female,1975-02-06,katherine.mcguire144@example.com,Chennai,India,English,2024-10-16,Bronze,Casual,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00145,Michael Torres,Male,1961-08-14,michael.torres145@example.com,Rome,Italy,Italian,2025-02-09,Silver,Casual,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00146,Joseph Coleman,Male,1954-10-17,joseph.coleman146@example.com,Singapore,Singapore,English,2025-11-17,Bronze,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00147,Michael Nelson,Male,1951-04-08,michael.nelson147@example.com,Bangalore,India,English,2024-07-09,Silver,Casual,Leisure,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00148,Corey Wilson,Male,1980-07-27,corey.wilson148@example.com,Milan,Italy,Italian,2026-06-23,Bronze,Casual,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00149,Cindy Washington,Female,1973-10-09,cindy.washington149@example.com,Milan,Italy,Italian,2024-01-17,Silver,Regular,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00150,Kelly Campbell MD,Female,1968-03-16,kelly.campbell.md150@example.com,London,United Kingdom,English,2022-10-19,Bronze,Regular,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00151,Christopher Smith,Male,1951-07-27,christopher.smith151@example.com,Milan,Italy,Italian,2024-01-29,Platinum,Casual,Leisure,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00152,William Tran,Male,1989-09-28,william.tran152@example.com,Lyon,France,French,2024-01-29,Bronze,Casual,Leisure,Website,False,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00153,Paul Garcia,Male,1999-01-05,paul.garcia153@example.com,Berlin,Germany,German,2023-06-04,Silver,Frequent,Business,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00154,John Peterson,Male,1971-01-20,john.peterson154@example.com,Singapore,Singapore,English,2022-08-12,Silver,Regular,Business,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00155,John Short,Male,1958-06-05,john.short155@example.com,Berlin,Germany,German,2023-08-18,Bronze,Regular,Business,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00156,Lori Brown,Female,1966-02-27,lori.brown156@example.com,Amsterdam,Netherlands,Dutch,2024-12-27,Bronze,Regular,Business,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00157,Eric Mcknight,Male,1996-02-16,eric.mcknight157@example.com,Singapore,Singapore,English,2025-11-29,Bronze,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00158,Larry Gibbs,Male,1990-03-29,larry.gibbs158@example.com,Lyon,France,French,2025-10-05,Silver,Casual,Business,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00159,Terry Evans,Male,1995-08-17,terry.evans159@example.com,Hamburg,Germany,German,2022-03-10,Platinum,Frequent,Business,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00160,Marc Lynch,Male,1983-10-15,marc.lynch160@example.com,Manchester,United Kingdom,English,2023-12-18,Bronze,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00161,Daniel Clark,Male,1992-09-13,daniel.clark161@example.com,Bangalore,India,English,2023-11-20,Gold,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00162,Carrie Jones,Female,1977-01-02,carrie.jones162@example.com,Barcelona,Spain,Spanish,2025-04-11,Bronze,Casual,Leisure,Website,False,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00163,Linda Carter,Female,1988-03-30,linda.carter163@example.com,Madrid,Spain,Spanish,2024-10-06,Bronze,Casual,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00164,Michele Gibson,Female,1968-09-23,michele.gibson164@example.com,Amsterdam,Netherlands,Dutch,2024-07-13,Platinum,Casual,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00165,Rachel Weber,Female,1961-09-14,rachel.weber165@example.com,Chennai,India,English,2020-03-22,Silver,Frequent,Business,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00166,Kimberly Holland,Female,2003-12-19,kimberly.holland166@example.com,Manchester,United Kingdom,English,2024-09-01,Bronze,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00167,Benjamin Martin,Male,1962-04-30,benjamin.martin167@example.com,Rome,Italy,Italian,2026-01-26,Bronze,Casual,Business,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00168,Laura Roberts,Female,1990-02-18,laura.roberts168@example.com,Chennai,India,English,2023-07-14,Bronze,Regular,Business,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00169,Michael Bender,Male,1968-07-13,michael.bender169@example.com,Bangalore,India,English,2023-02-18,Platinum,Frequent,Business,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00170,Angela Williams,Female,1999-06-17,angela.williams170@example.com,Berlin,Germany,German,2024-08-30,Gold,Regular,Business,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00171,David Davis,Male,1964-09-18,david.davis171@example.com,Bangalore,India,English,2025-12-26,Bronze,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00172,Alex Hubbard,Male,1962-11-15,alex.hubbard172@example.com,Berlin,Germany,German,2022-09-07,Gold,Regular,Business,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00173,Phillip Thompson,Male,1977-07-21,phillip.thompson173@example.com,Rome,Italy,Italian,2024-04-23,Bronze,Regular,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00174,Diana Shea,Female,1993-06-19,diana.shea174@example.com,Lyon,France,French,2026-03-29,Bronze,Casual,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00175,Tracy Harrison,Female,1958-06-08,tracy.harrison175@example.com,Barcelona,Spain,Spanish,2024-12-15,Bronze,Casual,Business,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00176,Ashley Martin,Female,1970-06-09,ashley.martin176@example.com,Lyon,France,French,2026-06-28,Silver,Casual,Business,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00177,Matthew Morales,Male,1970-10-23,matthew.morales177@example.com,London,United Kingdom,English,2023-11-17,Platinum,Regular,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00178,Brandon King,Male,1957-02-14,brandon.king178@example.com,Singapore,Singapore,English,2025-04-04,Silver,Casual,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00179,Samantha Smith,Female,1975-12-04,samantha.smith179@example.com,Chennai,India,English,2025-11-05,Bronze,Casual,Leisure,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00180,Amy Stone,Female,2000-08-29,amy.stone180@example.com,Paris,France,French,2025-08-29,Bronze,Casual,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00181,Olivia Harris,Female,1957-08-02,olivia.harris181@example.com,Singapore,Singapore,English,2024-02-05,Bronze,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00182,Jeffrey Wolfe,Male,1989-02-17,jeffrey.wolfe182@example.com,London,United Kingdom,English,2021-08-29,Bronze,Regular,Business,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00183,Mr. David Moore,Male,1953-08-02,mr..david.moore183@example.com,Utrecht,Netherlands,Dutch,2021-08-06,Silver,Regular,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00184,Brandon Gay,Male,1968-12-20,brandon.gay184@example.com,Dubai,UAE,Arabic,2022-01-08,Silver,Regular,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00185,Autumn Collier,Female,1988-07-12,autumn.collier185@example.com,Munich,Germany,German,2025-07-03,Silver,Regular,Business,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00186,Katrina Hill,Female,1964-11-19,katrina.hill186@example.com,Rome,Italy,Italian,2022-08-24,Platinum,Frequent,Business,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00187,David Arnold MD,Male,2000-12-24,david.arnold.md187@example.com,Rome,Italy,Italian,2026-02-02,Bronze,Casual,Leisure,Website,False,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00188,Sherry Shields,Female,1980-04-17,sherry.shields188@example.com,Hamburg,Germany,German,2025-04-21,Bronze,Casual,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00189,Richard Adams,Male,1950-01-01,richard.adams189@example.com,Singapore,Singapore,English,2024-09-28,Silver,Casual,Business,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00190,Sara Carpenter,Female,1954-09-14,sara.carpenter190@example.com,Amsterdam,Netherlands,Dutch,2023-08-15,Platinum,Regular,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00191,Jill Washington,Female,1991-05-10,jill.washington191@example.com,Rotterdam,Netherlands,Dutch,2025-11-20,Gold,Casual,Business,Website,False,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00192,Jamie Cantu,Female,1984-12-03,jamie.cantu192@example.com,London,United Kingdom,English,2024-05-05,Bronze,Casual,Business,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00193,David Reyes PhD,Male,1983-06-09,david.reyes.phd193@example.com,Chennai,India,English,2023-09-22,Bronze,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00194,John Mcintyre,Male,1981-05-29,john.mcintyre194@example.com,Utrecht,Netherlands,Dutch,2025-03-07,Bronze,Casual,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00195,Ricky Pearson Jr.,Male,1994-01-15,ricky.pearson.jr.195@example.com,Bangalore,India,English,2024-01-29,Bronze,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00196,Leslie Kane,Female,1969-12-06,leslie.kane196@example.com,Berlin,Germany,German,2025-05-30,Bronze,Casual,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00197,Thomas Smith,Male,1959-02-25,thomas.smith197@example.com,Lyon,France,French,2025-04-13,Bronze,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00198,Wayne Jones,Male,1972-10-30,wayne.jones198@example.com,Rotterdam,Netherlands,Dutch,2024-08-31,Bronze,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00199,Melissa Santos,Female,1989-11-27,melissa.santos199@example.com,Lyon,France,French,2024-12-08,Bronze,Casual,Leisure,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00200,Scott James,Male,1972-05-02,scott.james200@example.com,Rotterdam,Netherlands,Dutch,2026-03-16,Silver,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00201,Peter Brennan,Male,1984-01-14,peter.brennan201@example.com,Bangalore,India,English,2026-03-02,Silver,Casual,Business,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00202,Mark Mccall,Male,1959-03-30,mark.mccall202@example.com,Berlin,Germany,German,2023-12-04,Bronze,Casual,Business,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00203,Brett Schultz,Male,1951-12-05,brett.schultz203@example.com,Lyon,France,French,2023-12-20,Platinum,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00204,Michael Berger,Male,1957-01-18,michael.berger204@example.com,Paris,France,French,2024-12-01,Bronze,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00205,Elaine Brooks,Female,1957-02-26,elaine.brooks205@example.com,Paris,France,French,2024-07-30,Bronze,Casual,Leisure,Website,False,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00206,Kylie Sparks,Female,1985-03-08,kylie.sparks206@example.com,Utrecht,Netherlands,Dutch,2020-01-11,Bronze,Frequent,Business,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00207,Shelby Harvey,Female,1994-04-04,shelby.harvey207@example.com,Milan,Italy,Italian,2023-08-28,Bronze,Regular,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00208,Briana Murray,Female,1987-04-09,briana.murray208@example.com,Rome,Italy,Italian,2023-06-29,Silver,Regular,Business,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00209,Alexandra Ballard,Female,1967-12-16,alexandra.ballard209@example.com,Bangalore,India,English,2022-10-05,Bronze,Regular,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00210,Christopher Alexander,Male,1993-05-15,christopher.alexander210@example.com,Bangalore,India,English,2026-01-14,Bronze,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00211,Victor Vaughn,Male,1954-06-27,victor.vaughn211@example.com,Madrid,Spain,Spanish,2025-02-18,Silver,Regular,Business,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00212,Zachary Castaneda,Male,2000-02-11,zachary.castaneda212@example.com,Munich,Germany,German,2024-07-19,Bronze,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00213,Heather Phillips,Female,2003-09-29,heather.phillips213@example.com,Paris,France,French,2024-10-17,Silver,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00214,Sandra Foster,Female,1959-01-03,sandra.foster214@example.com,Utrecht,Netherlands,Dutch,2025-12-12,Platinum,Casual,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00215,Richard Beltran,Male,2003-12-20,richard.beltran215@example.com,Manchester,United Kingdom,English,2024-02-13,Silver,Regular,Business,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00216,Sandra Leach,Female,1987-10-29,sandra.leach216@example.com,Bangalore,India,English,2024-12-07,Bronze,Regular,Leisure,Mobile App,False,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00217,Robert Robinson,Male,1994-03-15,robert.robinson217@example.com,Milan,Italy,Italian,2026-03-07,Bronze,Casual,Business,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00218,Perry Saunders,Male,1987-09-22,perry.saunders218@example.com,Madrid,Spain,Spanish,2024-02-14,Bronze,Casual,Business,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00219,Stephanie Lucas,Female,1961-04-30,stephanie.lucas219@example.com,Bangalore,India,English,2025-05-31,Gold,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00220,Holly Anderson,Female,1971-12-20,holly.anderson220@example.com,Amsterdam,Netherlands,Dutch,2022-10-17,Bronze,Regular,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00221,Jennifer Gonzalez,Female,1987-11-02,jennifer.gonzalez221@example.com,Rotterdam,Netherlands,Dutch,2023-02-16,Bronze,Frequent,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00222,Holly Shaw,Female,1989-04-16,holly.shaw222@example.com,Munich,Germany,German,2024-03-28,Silver,Casual,Leisure,Website,False,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00223,Samantha Olson,Female,1978-11-10,samantha.olson223@example.com,Singapore,Singapore,English,2024-10-17,Gold,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00224,Gina Wilson,Female,1976-01-30,gina.wilson224@example.com,Munich,Germany,German,2024-02-20,Bronze,Casual,Leisure,Website,False,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00225,Darius Rhodes,Male,1950-09-19,darius.rhodes225@example.com,London,United Kingdom,English,2025-03-25,Silver,Casual,Business,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00226,Dr. Holly Gibbs,Female,1980-01-06,dr..holly.gibbs226@example.com,Chennai,India,English,2024-08-30,Bronze,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00227,Jesse Chambers,Male,1978-09-19,jesse.chambers227@example.com,Rome,Italy,Italian,2022-08-27,Bronze,Regular,Business,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00228,Rodney Bentley,Male,1955-02-11,rodney.bentley228@example.com,Amsterdam,Netherlands,Dutch,2024-05-29,Bronze,Regular,Business,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00229,Allison Henson,Female,1997-08-07,allison.henson229@example.com,Berlin,Germany,German,2022-12-07,Bronze,Regular,Leisure,Mobile App,False,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00230,Connie Brown,Female,2001-11-16,connie.brown230@example.com,Utrecht,Netherlands,Dutch,2025-07-07,Gold,Casual,Business,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00231,Elizabeth Ortiz,Female,2003-02-24,elizabeth.ortiz231@example.com,Madrid,Spain,Spanish,2023-09-25,Platinum,Casual,Leisure,Corporate,False,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00232,Eric Vasquez,Male,1972-02-07,eric.vasquez232@example.com,Amsterdam,Netherlands,Dutch,2022-07-15,Silver,Regular,Business,Corporate,False,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00233,Chad Chavez,Male,1968-09-17,chad.chavez233@example.com,Amsterdam,Netherlands,Dutch,2026-07-02,Bronze,Casual,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00234,Jennifer Newton,Female,1977-03-02,jennifer.newton234@example.com,Paris,France,French,2025-04-21,Bronze,Casual,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00235,Sandra Gilbert,Female,1975-04-19,sandra.gilbert235@example.com,Rotterdam,Netherlands,Dutch,2021-09-04,Silver,Regular,Business,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00236,Daniel Wallace,Male,1984-04-01,daniel.wallace236@example.com,Paris,France,French,2025-01-30,Silver,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00237,Melissa Stephens,Female,1964-09-07,melissa.stephens237@example.com,London,United Kingdom,English,2025-01-24,Platinum,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00238,Desiree Donaldson,Female,1985-11-26,desiree.donaldson238@example.com,Dubai,UAE,Arabic,2025-06-22,Bronze,Casual,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00239,Christy Fowler,Female,1964-01-09,christy.fowler239@example.com,Barcelona,Spain,Spanish,2023-10-03,Bronze,Casual,Leisure,Mobile App,False,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00240,Dana Martinez,Female,2003-08-08,dana.martinez240@example.com,Manchester,United Kingdom,English,2020-04-14,Gold,Frequent,Business,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00241,Phillip Clark,Male,1960-03-24,phillip.clark241@example.com,Bangalore,India,English,2024-12-30,Silver,Regular,Leisure,Mobile App,False,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00242,Gary Hernandez,Male,1955-12-16,gary.hernandez242@example.com,Dubai,UAE,Arabic,2024-01-27,Bronze,Regular,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00243,Shannon Thomas,Female,1951-02-20,shannon.thomas243@example.com,Manchester,United Kingdom,English,2025-11-02,Silver,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00244,Christopher Guerrero,Male,1965-01-10,christopher.guerrero244@example.com,Paris,France,French,2019-08-30,Bronze,Frequent,Business,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00245,Rachel Young,Female,1970-05-06,rachel.young245@example.com,Rotterdam,Netherlands,Dutch,2023-08-10,Bronze,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00246,Anthony Harmon,Male,1978-07-24,anthony.harmon246@example.com,Rotterdam,Netherlands,Dutch,2019-07-05,Silver,Frequent,Business,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00247,Karen Strickland,Female,1983-07-19,karen.strickland247@example.com,Munich,Germany,German,2024-01-24,Bronze,Regular,Business,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00248,Kathy Dougherty,Female,1971-01-17,kathy.dougherty248@example.com,Manchester,United Kingdom,English,2026-05-05,Bronze,Casual,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00249,Jimmy Maynard,Male,1995-01-24,jimmy.maynard249@example.com,Hamburg,Germany,German,2023-07-30,Bronze,Regular,Leisure,Website,False,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00250,Jeffery Rodriguez,Male,1999-10-04,jeffery.rodriguez250@example.com,Milan,Italy,Italian,2025-05-29,Bronze,Regular,Business,Corporate,False,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00251,Steven Morris,Male,1957-02-27,steven.morris251@example.com,London,United Kingdom,English,2019-02-06,Bronze,Frequent,Business,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00252,Marcus Richards,Male,1983-10-04,marcus.richards252@example.com,Berlin,Germany,German,2024-12-03,Bronze,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00253,Linda Phillips,Female,1964-07-15,linda.phillips253@example.com,Milan,Italy,Italian,2026-02-11,Bronze,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00254,Rebecca Wilson,Female,1955-09-12,rebecca.wilson254@example.com,Rotterdam,Netherlands,Dutch,2026-04-23,Silver,Casual,Leisure,Mobile App,False,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00255,Juan Glenn,Male,1966-06-16,juan.glenn255@example.com,Dubai,UAE,Arabic,2022-05-19,Platinum,Frequent,Business,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00256,Jennifer Wilcox,Female,1998-06-04,jennifer.wilcox256@example.com,Bangalore,India,English,2023-04-23,Platinum,Regular,Business,Corporate,False,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00257,Emily Edwards,Female,1994-04-09,emily.edwards257@example.com,Paris,France,French,2025-02-17,Bronze,Casual,Business,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00258,Melissa Wells,Female,1986-02-05,melissa.wells258@example.com,Lyon,France,French,2025-01-28,Silver,Regular,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00259,Jessica Garner,Female,2000-05-24,jessica.garner259@example.com,Paris,France,French,2024-02-04,Bronze,Casual,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00260,Kevin Hoffman,Male,1976-05-08,kevin.hoffman260@example.com,Bangalore,India,English,2026-05-22,Bronze,Casual,Business,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00261,Hayden Ortega,Male,1958-10-19,hayden.ortega261@example.com,Rome,Italy,Italian,2023-05-04,Silver,Regular,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00262,Nathan Schmitt,Male,1981-08-22,nathan.schmitt262@example.com,London,United Kingdom,English,2021-03-13,Platinum,Frequent,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00263,Kenneth Lewis,Male,1996-09-12,kenneth.lewis263@example.com,Lyon,France,French,2025-08-04,Silver,Casual,Business,Mobile App,False,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00264,Ashley Bruce,Female,1983-05-23,ashley.bruce264@example.com,Paris,France,French,2019-07-08,Platinum,Frequent,Business,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00265,Kenneth Aguirre,Male,1976-11-24,kenneth.aguirre265@example.com,Barcelona,Spain,Spanish,2025-12-04,Bronze,Casual,Business,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00266,Dr. Lisa Day,Female,1962-01-10,dr..lisa.day266@example.com,Rotterdam,Netherlands,Dutch,2026-02-17,Silver,Casual,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00267,Ronald Adams,Male,1952-03-10,ronald.adams267@example.com,Rotterdam,Netherlands,Dutch,2020-11-12,Gold,Frequent,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00268,Ellen Morgan,Female,1950-01-03,ellen.morgan268@example.com,Lyon,France,French,2024-04-23,Bronze,Casual,Leisure,Mobile App,False,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00269,Keith Morales,Male,2001-02-25,keith.morales269@example.com,Milan,Italy,Italian,2026-03-26,Bronze,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00270,Mrs. Kerry Bennett,Female,1985-06-26,mrs..kerry.bennett270@example.com,Amsterdam,Netherlands,Dutch,2024-12-27,Platinum,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00271,Eric Nguyen,Male,1971-08-09,eric.nguyen271@example.com,Milan,Italy,Italian,2026-01-28,Bronze,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00272,Anthony Moore,Male,1952-08-27,anthony.moore272@example.com,Milan,Italy,Italian,2023-10-02,Silver,Casual,Leisure,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00273,Dillon Stanley,Male,1971-07-08,dillon.stanley273@example.com,Amsterdam,Netherlands,Dutch,2026-02-14,Bronze,Casual,Leisure,Mobile App,False,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00274,Donald Fischer,Male,2002-02-14,donald.fischer274@example.com,Hamburg,Germany,German,2025-01-03,Bronze,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00275,Diane Gregory,Female,1960-07-07,diane.gregory275@example.com,Rome,Italy,Italian,2023-10-12,Silver,Regular,Leisure,Website,False,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00276,Andrew Foster,Male,1953-08-21,andrew.foster276@example.com,Singapore,Singapore,English,2021-10-09,Silver,Regular,Business,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00277,Eric Clark,Male,1950-02-23,eric.clark277@example.com,Milan,Italy,Italian,2024-08-16,Bronze,Casual,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00278,Bryan Jimenez,Male,2002-06-17,bryan.jimenez278@example.com,London,United Kingdom,English,2020-01-13,Silver,Frequent,Business,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00279,Joseph Hall,Male,1951-08-05,joseph.hall279@example.com,Bangalore,India,English,2024-03-22,Platinum,Frequent,Business,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00280,Benjamin Hensley,Male,1958-01-17,benjamin.hensley280@example.com,London,United Kingdom,English,2023-05-24,Bronze,Regular,Business,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00281,Tammy Atkins,Female,1983-08-12,tammy.atkins281@example.com,Utrecht,Netherlands,Dutch,2025-05-13,Silver,Casual,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00282,Michael Butler,Male,1990-02-14,michael.butler282@example.com,Berlin,Germany,German,2025-04-06,Bronze,Casual,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00283,Erika Solis,Female,1959-08-28,erika.solis283@example.com,Manchester,United Kingdom,English,2025-06-30,Bronze,Casual,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00284,Tamara Davis,Female,1958-11-24,tamara.davis284@example.com,Manchester,United Kingdom,English,2023-12-28,Bronze,Casual,Business,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00285,Kevin Warren,Male,1968-06-02,kevin.warren285@example.com,Singapore,Singapore,English,2024-11-09,Bronze,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00286,Connie Maxwell,Female,1973-01-30,connie.maxwell286@example.com,Berlin,Germany,German,2025-09-17,Bronze,Casual,Business,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00287,Kerry Lee,Female,1974-10-29,kerry.lee287@example.com,Bangalore,India,English,2025-01-09,Bronze,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00288,Tina Brewer,Female,1982-02-27,tina.brewer288@example.com,Berlin,Germany,German,2022-07-18,Silver,Regular,Business,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00289,David Thompson,Male,1962-03-01,david.thompson289@example.com,Rotterdam,Netherlands,Dutch,2026-04-30,Gold,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00290,Trevor Burton,Male,1984-06-29,trevor.burton290@example.com,Bangalore,India,English,2025-12-08,Silver,Casual,Business,Corporate,False,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00291,Joann Glass,Female,1976-08-07,joann.glass291@example.com,Dubai,UAE,Arabic,2026-04-10,Gold,Casual,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00292,Lori Lin,Female,1976-08-31,lori.lin292@example.com,Barcelona,Spain,Spanish,2024-11-19,Bronze,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00293,Barry Ramos,Male,1973-04-28,barry.ramos293@example.com,Rome,Italy,Italian,2024-12-04,Bronze,Regular,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00294,Amy Romero,Female,1988-04-30,amy.romero294@example.com,London,United Kingdom,English,2025-07-03,Bronze,Casual,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00295,Anthony Decker,Male,2005-01-30,anthony.decker295@example.com,Chennai,India,English,2026-04-13,Bronze,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00296,Savannah Gilbert,Female,1994-07-16,savannah.gilbert296@example.com,Paris,France,French,2025-03-05,Bronze,Casual,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00297,Kristen Conner,Female,1963-12-14,kristen.conner297@example.com,Rome,Italy,Italian,2023-09-18,Bronze,Casual,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00298,Robert Pearson,Male,1998-05-05,robert.pearson298@example.com,Munich,Germany,German,2026-02-10,Bronze,Casual,Leisure,Mobile App,False,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00299,Chris Brown,Male,1994-02-10,chris.brown299@example.com,Lyon,France,French,2024-12-26,Bronze,Regular,Business,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00300,Greg Klein,Male,1971-07-15,greg.klein300@example.com,Rome,Italy,Italian,2024-04-14,Gold,Regular,Business,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00301,David Kim,Male,1996-06-19,david.kim301@example.com,Utrecht,Netherlands,Dutch,2025-10-08,Bronze,Casual,Business,Mobile App,False,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00302,Caitlin Watson,Female,1970-04-20,caitlin.watson302@example.com,Hamburg,Germany,German,2025-03-09,Bronze,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00303,George Harper,Male,1991-11-03,george.harper303@example.com,Chennai,India,English,2026-03-23,Bronze,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00304,Austin Davis,Male,1989-09-21,austin.davis304@example.com,Hamburg,Germany,German,2025-03-08,Bronze,Casual,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00305,Nathaniel Douglas,Male,2004-12-17,nathaniel.douglas305@example.com,Munich,Germany,German,2023-09-01,Silver,Frequent,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00306,Felicia Aguilar,Female,1984-02-24,felicia.aguilar306@example.com,Singapore,Singapore,English,2025-06-09,Silver,Regular,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00307,Walter Hale,Male,1982-06-02,walter.hale307@example.com,Chennai,India,English,2024-02-02,Bronze,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00308,Todd Collins,Male,1984-05-26,todd.collins308@example.com,Paris,France,French,2024-01-06,Gold,Frequent,Business,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00309,Robert Santiago,Male,1979-11-18,robert.santiago309@example.com,Munich,Germany,German,2026-06-15,Bronze,Casual,Leisure,Mobile App,False,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00310,Anna Santiago,Female,1961-07-17,anna.santiago310@example.com,Berlin,Germany,German,2023-01-29,Platinum,Regular,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00311,Eric Bean,Male,1969-05-13,eric.bean311@example.com,Berlin,Germany,German,2025-08-10,Bronze,Casual,Business,Corporate,False,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00312,Zoe Moore,Female,1978-04-25,zoe.moore312@example.com,Barcelona,Spain,Spanish,2023-12-21,Silver,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00313,Joshua Rodgers,Male,2001-07-24,joshua.rodgers313@example.com,Rotterdam,Netherlands,Dutch,2023-09-13,Silver,Casual,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00314,Sherri Williamson,Female,2005-08-20,sherri.williamson314@example.com,Milan,Italy,Italian,2021-09-29,Bronze,Frequent,Business,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00315,Christopher Schwartz,Male,1960-08-30,christopher.schwartz315@example.com,Milan,Italy,Italian,2024-03-30,Bronze,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00316,Amanda Diaz,Female,1992-10-06,amanda.diaz316@example.com,Madrid,Spain,Spanish,2022-07-19,Bronze,Regular,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00317,Mr. Paul Bowers,Male,2005-04-01,mr..paul.bowers317@example.com,Barcelona,Spain,Spanish,2023-10-23,Bronze,Regular,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00318,Tracie Mueller,Female,1968-12-16,tracie.mueller318@example.com,Berlin,Germany,German,2024-05-13,Silver,Casual,Leisure,Mobile App,False,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00319,Theresa Joyce,Female,1977-06-29,theresa.joyce319@example.com,Amsterdam,Netherlands,Dutch,2024-09-26,Bronze,Casual,Leisure,Website,False,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00320,Jonathan Barnes,Male,1955-03-04,jonathan.barnes320@example.com,Rome,Italy,Italian,2025-01-04,Silver,Regular,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00321,Larry Salas,Male,1956-01-21,larry.salas321@example.com,London,United Kingdom,English,2026-04-08,Bronze,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00322,Jacqueline Villa,Female,1968-10-03,jacqueline.villa322@example.com,Lyon,France,French,2022-12-05,Bronze,Frequent,Business,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00323,Dustin Hines,Male,1965-04-16,dustin.hines323@example.com,Rome,Italy,Italian,2025-06-13,Bronze,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00324,Charles Kim,Male,1968-12-19,charles.kim324@example.com,Bangalore,India,English,2024-06-25,Platinum,Casual,Business,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00325,Stacey Arias,Female,1993-06-11,stacey.arias325@example.com,London,United Kingdom,English,2018-12-29,Platinum,Frequent,Business,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00326,Jacqueline Hughes,Female,1984-02-01,jacqueline.hughes326@example.com,Berlin,Germany,German,2025-02-18,Silver,Casual,Business,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00327,Fernando Garcia,Male,1966-10-05,fernando.garcia327@example.com,Rotterdam,Netherlands,Dutch,2024-01-26,Platinum,Frequent,Business,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00328,Charles Johnson,Male,2000-12-22,charles.johnson328@example.com,Paris,France,French,2025-07-19,Silver,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00329,Brenda Thornton,Female,1957-06-23,brenda.thornton329@example.com,Madrid,Spain,Spanish,2026-02-26,Bronze,Casual,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00330,Angela Scott,Female,1954-11-21,angela.scott330@example.com,Amsterdam,Netherlands,Dutch,2022-03-05,Gold,Regular,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00331,Monica Rose,Female,1967-02-12,monica.rose331@example.com,Amsterdam,Netherlands,Dutch,2024-10-06,Silver,Casual,Leisure,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00332,Barbara Allen,Female,1981-09-06,barbara.allen332@example.com,Chennai,India,English,2026-03-10,Bronze,Casual,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00333,Ashley Stein,Female,1965-08-20,ashley.stein333@example.com,Chennai,India,English,2023-10-26,Bronze,Regular,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00334,Kaylee Allen,Female,1974-02-25,kaylee.allen334@example.com,Lyon,France,French,2022-10-11,Silver,Regular,Business,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00335,Lucas Allen,Male,2004-06-10,lucas.allen335@example.com,Bangalore,India,English,2024-05-02,Bronze,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00336,Bradley Villegas,Male,1971-01-27,bradley.villegas336@example.com,Berlin,Germany,German,2023-01-06,Gold,Frequent,Business,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00337,Richard Romero,Male,1959-01-08,richard.romero337@example.com,Barcelona,Spain,Spanish,2025-03-14,Bronze,Casual,Leisure,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00338,Amanda Hughes,Female,1974-05-25,amanda.hughes338@example.com,Amsterdam,Netherlands,Dutch,2024-08-14,Bronze,Casual,Business,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00339,Heather Jones,Female,1971-04-04,heather.jones339@example.com,Amsterdam,Netherlands,Dutch,2026-05-02,Bronze,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00340,Patricia Moss,Female,1982-05-10,patricia.moss340@example.com,Singapore,Singapore,English,2024-02-09,Bronze,Casual,Business,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00341,Joshua Li,Male,1955-03-09,joshua.li341@example.com,Dubai,UAE,Arabic,2026-06-14,Bronze,Casual,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00342,Michael Welch,Male,1952-11-10,michael.welch342@example.com,Milan,Italy,Italian,2024-02-11,Silver,Casual,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00343,Ricardo Ellis,Male,1964-04-23,ricardo.ellis343@example.com,Chennai,India,English,2024-05-25,Silver,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00344,Christina Williams,Female,1991-12-29,christina.williams344@example.com,Munich,Germany,German,2024-11-09,Bronze,Casual,Leisure,Mobile App,False,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00345,Virginia Daniels,Female,1976-04-08,virginia.daniels345@example.com,Utrecht,Netherlands,Dutch,2023-09-11,Gold,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00346,Cheryl Kelly,Female,1982-10-31,cheryl.kelly346@example.com,Lyon,France,French,2023-09-29,Bronze,Casual,Business,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00347,Evelyn Martinez,Female,1952-05-22,evelyn.martinez347@example.com,Rotterdam,Netherlands,Dutch,2023-05-25,Silver,Regular,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00348,Natalie Kline,Female,1987-05-31,natalie.kline348@example.com,Lyon,France,French,2024-12-24,Bronze,Casual,Leisure,Corporate,False,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00349,Mrs. Kathleen Glass,Female,1973-07-21,mrs..kathleen.glass349@example.com,Amsterdam,Netherlands,Dutch,2024-09-03,Bronze,Casual,Leisure,Website,False,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00350,Nicholas Miller,Male,1979-08-22,nicholas.miller350@example.com,Munich,Germany,German,2020-01-28,Platinum,Frequent,Business,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00351,Frank Miller,Male,1961-09-14,frank.miller351@example.com,Dubai,UAE,Arabic,2024-10-18,Bronze,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00352,Lindsey Simmons,Female,2001-09-25,lindsey.simmons352@example.com,Manchester,United Kingdom,English,2025-06-05,Bronze,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00353,Amanda Berg,Female,1959-05-17,amanda.berg353@example.com,Paris,France,French,2024-02-26,Silver,Regular,Business,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00354,Mr. William Gould Jr.,Male,1958-09-05,mr..william.gould.jr.354@example.com,Milan,Italy,Italian,2025-04-08,Bronze,Casual,Leisure,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00355,Rebecca Shelton,Female,1960-01-12,rebecca.shelton355@example.com,Dubai,UAE,Arabic,2024-02-23,Bronze,Casual,Leisure,Mobile App,False,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00356,Megan Kim,Female,1997-02-19,megan.kim356@example.com,Manchester,United Kingdom,English,2023-10-29,Bronze,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00357,Matthew Cox,Male,1961-08-09,matthew.cox357@example.com,Amsterdam,Netherlands,Dutch,2023-09-05,Bronze,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00358,Meghan Rush,Female,1993-05-25,meghan.rush358@example.com,Lyon,France,French,2023-06-05,Gold,Regular,Business,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00359,Kenneth Moreno,Male,1999-06-04,kenneth.moreno359@example.com,Munich,Germany,German,2022-11-16,Bronze,Regular,Business,Mobile App,False,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00360,Danielle Wilson,Female,1989-10-13,danielle.wilson360@example.com,Rome,Italy,Italian,2024-05-01,Bronze,Casual,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00361,Jasmine Hoffman,Female,1955-04-12,jasmine.hoffman361@example.com,Rome,Italy,Italian,2024-10-31,Gold,Regular,Leisure,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00362,Jeremy Davies,Male,1969-04-21,jeremy.davies362@example.com,Lyon,France,French,2024-06-28,Gold,Regular,Business,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00363,Katherine Martinez,Female,1985-11-28,katherine.martinez363@example.com,Rome,Italy,Italian,2023-11-09,Bronze,Casual,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00364,Stephanie Wallace,Female,1951-02-03,stephanie.wallace364@example.com,Madrid,Spain,Spanish,2024-12-26,Silver,Regular,Business,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00365,Sarah Flores,Female,1999-05-15,sarah.flores365@example.com,Milan,Italy,Italian,2023-10-25,Bronze,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00366,Donna Evans,Female,1976-03-02,donna.evans366@example.com,Barcelona,Spain,Spanish,2026-07-08,Silver,Casual,Business,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00367,Riley Hicks,Male,1979-02-17,riley.hicks367@example.com,Madrid,Spain,Spanish,2024-05-24,Bronze,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00368,Cynthia Snyder,Female,1955-05-20,cynthia.snyder368@example.com,Chennai,India,English,2023-11-23,Bronze,Regular,Business,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00369,Julie Bird,Female,1974-02-20,julie.bird369@example.com,Barcelona,Spain,Spanish,2024-02-21,Silver,Regular,Leisure,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00370,Ana Sanders,Female,1984-10-05,ana.sanders370@example.com,Singapore,Singapore,English,2025-07-29,Bronze,Casual,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00371,Randy Morrow,Male,1969-01-29,randy.morrow371@example.com,Paris,France,French,2024-01-27,Gold,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00372,Miss Joanna Frazier,Female,1977-05-14,miss.joanna.frazier372@example.com,Lyon,France,French,2022-01-31,Bronze,Regular,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00373,Richard Bowman,Male,1969-03-12,richard.bowman373@example.com,Lyon,France,French,2019-08-21,Platinum,Frequent,Business,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00374,Thomas Brown,Male,1992-02-18,thomas.brown374@example.com,Madrid,Spain,Spanish,2023-09-28,Silver,Regular,Business,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00375,Christopher Morris,Male,1952-10-02,christopher.morris375@example.com,Madrid,Spain,Spanish,2022-07-01,Silver,Regular,Business,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00376,Teresa Jacobson,Female,1967-11-25,teresa.jacobson376@example.com,Hamburg,Germany,German,2023-11-16,Bronze,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00377,Mark Pierce,Male,1972-02-18,mark.pierce377@example.com,Milan,Italy,Italian,2026-03-13,Bronze,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00378,Joseph Shaw,Male,1987-03-07,joseph.shaw378@example.com,Lyon,France,French,2024-01-21,Bronze,Regular,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00379,Christian Hopkins,Male,1970-10-07,christian.hopkins379@example.com,London,United Kingdom,English,2023-09-09,Gold,Frequent,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00380,Thomas Williams,Male,1997-12-02,thomas.williams380@example.com,Milan,Italy,Italian,2021-08-29,Bronze,Regular,Business,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00381,Travis Wise,Male,1961-04-13,travis.wise381@example.com,Manchester,United Kingdom,English,2024-01-29,Gold,Frequent,Business,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00382,Laura Montgomery,Female,1981-01-12,laura.montgomery382@example.com,Bangalore,India,English,2023-08-28,Silver,Regular,Business,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00383,Kimberly May,Female,1970-04-28,kimberly.may383@example.com,Chennai,India,English,2025-08-05,Bronze,Casual,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00384,Renee Sullivan,Female,1976-06-25,renee.sullivan384@example.com,Rotterdam,Netherlands,Dutch,2023-11-07,Silver,Casual,Business,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00385,Brooke Perry,Female,1975-06-30,brooke.perry385@example.com,Singapore,Singapore,English,2022-05-28,Bronze,Regular,Leisure,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00386,Charles Hensley,Male,1957-05-04,charles.hensley386@example.com,Rome,Italy,Italian,2025-01-03,Bronze,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00387,Bianca Wood DDS,Female,2005-05-04,bianca.wood.dds387@example.com,Hamburg,Germany,German,2022-07-26,Silver,Regular,Business,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00388,Derek Wright,Male,1999-02-07,derek.wright388@example.com,Paris,France,French,2023-10-03,Bronze,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00389,Janet Gilbert,Female,1953-04-07,janet.gilbert389@example.com,Barcelona,Spain,Spanish,2024-03-21,Bronze,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00390,Taylor Griffith,Female,2001-03-15,taylor.griffith390@example.com,Rotterdam,Netherlands,Dutch,2024-10-13,Bronze,Regular,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00391,Zachary Owens,Male,1953-12-08,zachary.owens391@example.com,Hamburg,Germany,German,2024-11-07,Bronze,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00392,Ann Long,Female,1980-06-26,ann.long392@example.com,Madrid,Spain,Spanish,2024-07-24,Bronze,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00393,Harry Williams,Male,2005-07-12,harry.williams393@example.com,Chennai,India,English,2024-01-30,Bronze,Regular,Business,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00394,Martha Ruiz,Female,1957-07-28,martha.ruiz394@example.com,Singapore,Singapore,English,2021-07-28,Silver,Regular,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00395,Jessica Khan,Female,1979-10-10,jessica.khan395@example.com,Madrid,Spain,Spanish,2025-02-04,Bronze,Casual,Business,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00396,Holly Morales,Female,1991-08-10,holly.morales396@example.com,Singapore,Singapore,English,2025-12-05,Bronze,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00397,Kristen Jones,Female,1993-07-15,kristen.jones397@example.com,London,United Kingdom,English,2022-05-16,Silver,Frequent,Business,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00398,Douglas Hays,Male,1961-09-22,douglas.hays398@example.com,Lyon,France,French,2026-02-20,Platinum,Casual,Business,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00399,Vanessa Long,Female,1997-11-05,vanessa.long399@example.com,Rome,Italy,Italian,2024-12-24,Bronze,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00400,Jacob Thomas,Male,1956-08-21,jacob.thomas400@example.com,Bangalore,India,English,2023-09-14,Bronze,Regular,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00401,Amanda Williams,Female,1982-10-05,amanda.williams401@example.com,Singapore,Singapore,English,2024-12-15,Gold,Casual,Business,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00402,Kelly Hernandez,Female,1997-12-13,kelly.hernandez402@example.com,Paris,France,French,2025-09-24,Silver,Casual,Business,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00403,Timothy Flores,Male,1977-06-02,timothy.flores403@example.com,London,United Kingdom,English,2024-02-28,Silver,Regular,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00404,Edwin Rogers,Male,1963-11-18,edwin.rogers404@example.com,London,United Kingdom,English,2023-09-15,Platinum,Regular,Business,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00405,Michael Evans,Male,2001-11-13,michael.evans405@example.com,Berlin,Germany,German,2021-08-10,Bronze,Regular,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00406,Megan Whitney,Female,1976-08-14,megan.whitney406@example.com,Rome,Italy,Italian,2022-11-05,Silver,Regular,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00407,Nicholas Watts,Male,1983-01-11,nicholas.watts407@example.com,London,United Kingdom,English,2026-01-29,Gold,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00408,Tracy Patton,Female,1996-10-28,tracy.patton408@example.com,Amsterdam,Netherlands,Dutch,2025-12-31,Gold,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00409,Mikayla Silva,Female,1977-03-08,mikayla.silva409@example.com,Paris,France,French,2023-10-08,Silver,Regular,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00410,Lisa Randall,Female,1993-02-27,lisa.randall410@example.com,Rotterdam,Netherlands,Dutch,2024-04-30,Gold,Frequent,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00411,Laura Graves,Female,1983-03-16,laura.graves411@example.com,Manchester,United Kingdom,English,2023-08-15,Bronze,Casual,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00412,Jennifer Gutierrez,Female,1985-03-21,jennifer.gutierrez412@example.com,Lyon,France,French,2025-04-14,Bronze,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00413,Logan Ruiz,Male,2001-11-26,logan.ruiz413@example.com,Paris,France,French,2023-10-21,Bronze,Casual,Leisure,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00414,Joseph Hoffman,Male,1991-09-15,joseph.hoffman414@example.com,Lyon,France,French,2025-07-29,Bronze,Casual,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00415,Emily Thompson,Female,1999-12-21,emily.thompson415@example.com,Bangalore,India,English,2023-10-22,Silver,Regular,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00416,Hector Ingram,Male,2004-10-06,hector.ingram416@example.com,Rome,Italy,Italian,2024-06-07,Gold,Regular,Business,Mobile App,False,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00417,Michael Bishop,Male,2003-03-16,michael.bishop417@example.com,Chennai,India,English,2024-08-02,Bronze,Casual,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00418,Elizabeth David,Female,1997-04-26,elizabeth.david418@example.com,Madrid,Spain,Spanish,2024-10-07,Bronze,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00419,Melissa Burns,Female,1956-07-05,melissa.burns419@example.com,Berlin,Germany,German,2021-07-04,Bronze,Frequent,Business,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00420,Timothy Griffith,Male,2002-04-22,timothy.griffith420@example.com,Utrecht,Netherlands,Dutch,2022-01-21,Silver,Regular,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00421,Kimberly Huang,Female,1986-06-03,kimberly.huang421@example.com,Milan,Italy,Italian,2025-01-03,Bronze,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00422,Robert Roberts,Male,1952-04-21,robert.roberts422@example.com,Paris,France,French,2023-11-16,Bronze,Casual,Leisure,Mobile App,False,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00423,Jeremy Scott,Male,1989-07-06,jeremy.scott423@example.com,Amsterdam,Netherlands,Dutch,2024-06-13,Bronze,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00424,Kimberly Fitzpatrick,Female,1994-09-28,kimberly.fitzpatrick424@example.com,Lyon,France,French,2024-09-10,Bronze,Casual,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00425,Lisa Matthews,Female,1951-04-04,lisa.matthews425@example.com,Lyon,France,French,2021-10-02,Bronze,Regular,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00426,Joseph Little,Male,2002-01-21,joseph.little426@example.com,Lyon,France,French,2021-12-18,Silver,Regular,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00427,Michelle Garcia,Female,1962-10-27,michelle.garcia427@example.com,Rotterdam,Netherlands,Dutch,2019-09-17,Silver,Frequent,Business,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00428,Joshua Hickman,Male,1989-06-08,joshua.hickman428@example.com,Amsterdam,Netherlands,Dutch,2026-04-26,Bronze,Casual,Business,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00429,Shawn Woods,Male,1999-03-19,shawn.woods429@example.com,Singapore,Singapore,English,2024-10-05,Bronze,Casual,Business,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00430,Maria Velez,Female,2003-02-04,maria.velez430@example.com,Milan,Italy,Italian,2026-04-25,Bronze,Casual,Business,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00431,Kimberly Sharp,Female,1975-12-30,kimberly.sharp431@example.com,London,United Kingdom,English,2023-09-12,Bronze,Casual,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00432,Christopher Khan,Male,1957-03-10,christopher.khan432@example.com,Bangalore,India,English,2018-11-06,Platinum,Frequent,Business,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00433,Mr. Jon Zuniga DVM,Male,1965-12-26,mr..jon.zuniga.dvm433@example.com,Lyon,France,French,2024-10-08,Bronze,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00434,Adam Bradley,Male,1976-02-11,adam.bradley434@example.com,Milan,Italy,Italian,2024-12-18,Bronze,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00435,Virginia Daniels,Female,1965-07-11,virginia.daniels435@example.com,Lyon,France,French,2025-04-27,Bronze,Regular,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00436,Samuel Mcdonald,Male,1983-03-16,samuel.mcdonald436@example.com,Chennai,India,English,2024-01-07,Bronze,Casual,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00437,Monique Wong,Female,1951-10-06,monique.wong437@example.com,Chennai,India,English,2024-05-01,Bronze,Casual,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00438,Gabrielle Phillips,Female,1966-09-19,gabrielle.phillips438@example.com,Bangalore,India,English,2024-10-04,Bronze,Regular,Business,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00439,Levi Fowler,Male,2001-06-07,levi.fowler439@example.com,Milan,Italy,Italian,2025-01-20,Platinum,Regular,Business,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00440,Erin Morales,Female,1955-02-06,erin.morales440@example.com,Utrecht,Netherlands,Dutch,2024-04-29,Silver,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00441,Karen Boyle MD,Female,1977-05-29,karen.boyle.md441@example.com,Lyon,France,French,2020-07-17,Gold,Frequent,Business,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00442,Debra Rivera,Female,1969-08-14,debra.rivera442@example.com,Rotterdam,Netherlands,Dutch,2025-12-22,Silver,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00443,Martha Schwartz,Female,2004-01-25,martha.schwartz443@example.com,Dubai,UAE,Arabic,2026-05-19,Bronze,Casual,Business,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00444,Elizabeth Sullivan,Female,1957-07-14,elizabeth.sullivan444@example.com,Lyon,France,French,2026-07-13,Bronze,Casual,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00445,Michael Fowler,Male,1962-04-25,michael.fowler445@example.com,Utrecht,Netherlands,Dutch,2025-02-06,Bronze,Casual,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00446,Daniel Anderson,Male,2001-03-01,daniel.anderson446@example.com,Manchester,United Kingdom,English,2025-06-22,Bronze,Casual,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00447,Larry Perry,Male,1954-08-02,larry.perry447@example.com,Madrid,Spain,Spanish,2025-07-17,Bronze,Casual,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00448,Rebecca Petersen,Female,2001-10-23,rebecca.petersen448@example.com,Lyon,France,French,2024-08-04,Bronze,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00449,Linda Cobb,Female,1971-07-24,linda.cobb449@example.com,Lyon,France,French,2023-06-09,Silver,Regular,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00450,Isaiah Stark,Male,1994-02-13,isaiah.stark450@example.com,Lyon,France,French,2023-10-20,Platinum,Casual,Leisure,Website,False,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00451,Stephanie Harris,Female,1966-07-28,stephanie.harris451@example.com,Utrecht,Netherlands,Dutch,2024-03-05,Silver,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00452,Scott Ramos,Male,1955-09-21,scott.ramos452@example.com,Amsterdam,Netherlands,Dutch,2024-05-31,Gold,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00453,Katherine Nolan,Female,1998-06-23,katherine.nolan453@example.com,Munich,Germany,German,2023-10-11,Silver,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00454,Jose Bryant,Male,1984-01-23,jose.bryant454@example.com,Hamburg,Germany,German,2023-12-01,Bronze,Regular,Business,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00455,Renee Cummings,Female,1957-06-03,renee.cummings455@example.com,Madrid,Spain,Spanish,2024-08-15,Bronze,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00456,Nichole Lane,Female,1951-01-18,nichole.lane456@example.com,Singapore,Singapore,English,2025-05-05,Silver,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00457,Arthur Mcknight,Male,1952-12-28,arthur.mcknight457@example.com,Rotterdam,Netherlands,Dutch,2025-05-05,Platinum,Regular,Business,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00458,Taylor Johnson,Female,1992-06-07,taylor.johnson458@example.com,Amsterdam,Netherlands,Dutch,2024-04-21,Bronze,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00459,Ralph Good,Male,1973-09-08,ralph.good459@example.com,London,United Kingdom,English,2025-04-30,Silver,Casual,Leisure,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00460,Stephanie West,Female,1991-12-23,stephanie.west460@example.com,Rome,Italy,Italian,2025-02-22,Bronze,Casual,Business,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00461,Michael Stanley,Male,1972-07-28,michael.stanley461@example.com,Paris,France,French,2024-02-08,Bronze,Casual,Leisure,Website,False,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00462,Gregory White,Male,1996-07-27,gregory.white462@example.com,Dubai,UAE,Arabic,2021-11-19,Gold,Frequent,Business,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00463,Nicholas Walker,Male,2001-01-02,nicholas.walker463@example.com,London,United Kingdom,English,2024-10-02,Bronze,Regular,Business,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00464,Elizabeth Nunez,Female,2002-07-31,elizabeth.nunez464@example.com,Bangalore,India,English,2023-05-05,Bronze,Regular,Business,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00465,Samantha Wright,Female,1959-05-15,samantha.wright465@example.com,Bangalore,India,English,2024-03-13,Gold,Casual,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00466,Teresa Hardy,Female,2003-02-13,teresa.hardy466@example.com,Manchester,United Kingdom,English,2021-09-04,Bronze,Regular,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00467,Jennifer Miranda,Female,1957-12-09,jennifer.miranda467@example.com,Chennai,India,English,2025-04-27,Silver,Regular,Business,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00468,Daniel Garcia,Male,1992-01-14,daniel.garcia468@example.com,Barcelona,Spain,Spanish,2025-06-09,Bronze,Casual,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00469,Michele Williams,Female,2004-10-14,michele.williams469@example.com,Paris,France,French,2021-09-22,Bronze,Regular,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00470,David Robinson,Male,1985-12-02,david.robinson470@example.com,Amsterdam,Netherlands,Dutch,2019-01-08,Gold,Frequent,Leisure,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00471,Wyatt Young,Male,1987-12-22,wyatt.young471@example.com,Lyon,France,French,2024-08-25,Bronze,Regular,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00472,Laura Barton,Female,1974-11-14,laura.barton472@example.com,Singapore,Singapore,English,2024-11-26,Gold,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00473,Shawn Odom,Male,1962-07-22,shawn.odom473@example.com,Chennai,India,English,2020-06-02,Silver,Frequent,Business,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00474,Donald Hawkins,Male,1957-08-18,donald.hawkins474@example.com,London,United Kingdom,English,2025-04-12,Gold,Regular,Business,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00475,Casey Shelton,Female,1958-08-04,casey.shelton475@example.com,Barcelona,Spain,Spanish,2025-08-24,Bronze,Casual,Business,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00476,Gregory Schneider,Male,1996-05-28,gregory.schneider476@example.com,Madrid,Spain,Spanish,2024-11-17,Silver,Regular,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00477,Michael Russell,Male,1952-04-26,michael.russell477@example.com,Rome,Italy,Italian,2023-02-20,Gold,Regular,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00478,Joshua Allen,Male,1955-03-29,joshua.allen478@example.com,Milan,Italy,Italian,2021-02-05,Platinum,Frequent,Business,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00479,Charles Ford,Male,1989-01-23,charles.ford479@example.com,London,United Kingdom,English,2025-12-06,Bronze,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00480,Jennifer Moreno,Female,2004-05-30,jennifer.moreno480@example.com,Munich,Germany,German,2024-07-28,Bronze,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00481,Erin Miller,Female,1991-06-24,erin.miller481@example.com,Manchester,United Kingdom,English,2021-09-11,Platinum,Frequent,Business,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00482,Nathaniel Lee,Male,1984-04-14,nathaniel.lee482@example.com,Hamburg,Germany,German,2025-02-21,Silver,Casual,Business,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00483,Larry Russo,Male,1988-03-14,larry.russo483@example.com,Chennai,India,English,2024-12-16,Platinum,Regular,Business,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00484,Nathaniel Hansen,Male,1968-07-04,nathaniel.hansen484@example.com,Munich,Germany,German,2022-06-05,Gold,Regular,Business,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00485,Felicia Krueger,Female,1990-01-06,felicia.krueger485@example.com,Manchester,United Kingdom,English,2024-06-10,Gold,Casual,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00486,Victor Wilson,Male,1986-10-20,victor.wilson486@example.com,Rotterdam,Netherlands,Dutch,2025-07-29,Gold,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00487,Michael Padilla,Male,1987-06-04,michael.padilla487@example.com,Munich,Germany,German,2020-07-29,Bronze,Frequent,Business,Corporate,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00488,Reginald James,Male,1984-07-26,reginald.james488@example.com,Bangalore,India,English,2026-04-19,Bronze,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00489,Dennis Hunt,Male,1956-07-11,dennis.hunt489@example.com,London,United Kingdom,English,2023-07-09,Silver,Regular,Business,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00490,Vicki Harrison,Female,1970-11-23,vicki.harrison490@example.com,Utrecht,Netherlands,Dutch,2022-11-25,Silver,Regular,Business,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00491,Jacob Gutierrez,Male,1950-08-07,jacob.gutierrez491@example.com,Madrid,Spain,Spanish,2024-06-24,Silver,Casual,Leisure,Mobile App,False,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00492,Alan Tran,Male,1994-08-15,alan.tran492@example.com,Manchester,United Kingdom,English,2024-01-01,Bronze,Regular,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00493,Edward Gonzalez,Male,1962-03-31,edward.gonzalez493@example.com,Singapore,Singapore,English,2025-02-26,Silver,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00494,Danielle Pierce,Female,1972-09-22,danielle.pierce494@example.com,Utrecht,Netherlands,Dutch,2024-12-22,Bronze,Casual,Leisure,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00495,Roberto Levy,Male,1971-09-07,roberto.levy495@example.com,Chennai,India,English,2025-08-17,Bronze,Casual,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00496,Morgan Bell,Female,1958-02-24,morgan.bell496@example.com,Milan,Italy,Italian,2024-08-07,Bronze,Regular,Leisure,Mobile App,False,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00497,Clinton Preston,Male,1966-09-07,clinton.preston497@example.com,Singapore,Singapore,English,2019-01-15,Silver,Frequent,Business,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00498,Ryan Jones,Male,1990-11-14,ryan.jones498@example.com,Rotterdam,Netherlands,Dutch,2024-05-19,Platinum,Regular,Business,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00499,Aaron Taylor,Male,1962-09-02,aaron.taylor499@example.com,Munich,Germany,German,2022-07-10,Bronze,Regular,Business,Website,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105
+CUS00500,Brittany Robinson,Female,1974-06-27,brittany.robinson500@example.com,Barcelona,Spain,Spanish,2021-09-18,Bronze,Frequent,Leisure,Mobile App,True,2026-07-17 19:44:51.275105,2026-07-17 19:44:51.275105

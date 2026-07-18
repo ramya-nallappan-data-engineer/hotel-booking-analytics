@@ -1,84 +1,208 @@
--- Dimension table storing customer information
-CREATE TABLE customers(
-    customer_id VARCHAR PRIMARY KEY,
-    customer_name VARCHAR NOT NULL,
-    email VARCHAR NOT NULL,
-    city VARCHAR NOT NULL,
-    country VARCHAR NOT NULL,
-    signup_date DATE NOT NULL,
-    created_at TIMESTAMP,
-    updated_at TIMESTAMP
+-- ==========================================================
+-- HOTEL BOOKING ANALYTICS DATABASE
+-- ==========================================================
+
+-- Drop existing tables (child tables first)
+DROP TABLE IF EXISTS order_items;
+DROP TABLE IF EXISTS reviews;
+DROP TABLE IF EXISTS payments;
+DROP TABLE IF EXISTS bookings;
+DROP TABLE IF EXISTS products;
+DROP TABLE IF EXISTS hotels;
+DROP TABLE IF EXISTS customers;
+
+-- ==========================================================
+-- CUSTOMERS
+-- ==========================================================
+
+CREATE TABLE customers (
+
+    customer_id             VARCHAR PRIMARY KEY,
+
+    first_name              VARCHAR,
+    last_name               VARCHAR,
+    gender                  VARCHAR,
+    age                     INTEGER,
+
+    email                   VARCHAR,
+    phone_number            VARCHAR,
+
+    city                    VARCHAR,
+    state                   VARCHAR,
+    country                 VARCHAR,
+
+    traveler_type           VARCHAR,
+    loyalty_tier            VARCHAR,
+
+    registration_date       DATE,
+
+    created_at              TIMESTAMP,
+    updated_at              TIMESTAMP
 );
--- Dimension table storing hotel information
+
+-- ==========================================================
+-- HOTELS
+-- ==========================================================
+
 CREATE TABLE hotels (
-    hotel_id VARCHAR PRIMARY KEY,
-    hotel_name VARCHAR NOT NULL,
-    city VARCHAR NOT NULL,
-    country VARCHAR NOT NULL,
-    star_rating INTEGER CHECK (star_rating BETWEEN 1 AND 5),
-    created_at TIMESTAMP,
-    updated_at TIMESTAMP
+
+    hotel_id                VARCHAR PRIMARY KEY,
+
+    hotel_name              VARCHAR,
+
+    city                    VARCHAR,
+    state                   VARCHAR,
+    country                 VARCHAR,
+
+    hotel_type              VARCHAR,
+    star_rating             INTEGER,
+
+    room_capacity           INTEGER,
+
+    created_at              TIMESTAMP,
+    updated_at              TIMESTAMP
 );
--- Dimension table storing product information
+
+-- ==========================================================
+-- PRODUCTS
+-- ==========================================================
+
 CREATE TABLE products (
-    product_id VARCHAR PRIMARY KEY,
-    product_name VARCHAR NOT NULL,
-    category VARCHAR,
-    price DECIMAL(10,2) NOT NULL,
-    created_at TIMESTAMP,
-    updated_at TIMESTAMP
+
+    product_id              VARCHAR PRIMARY KEY,
+
+    product_name            VARCHAR,
+    category                VARCHAR,
+
+    price                   DECIMAL(10,2),
+
+    created_at              TIMESTAMP,
+    updated_at              TIMESTAMP
 );
--- Fact table containing hotel booking transactions
+
+-- ==========================================================
+-- BOOKINGS
+-- ==========================================================
+
 CREATE TABLE bookings (
-    booking_id VARCHAR PRIMARY KEY,
-    customer_id VARCHAR NOT NULL,
-    hotel_id VARCHAR NOT NULL,
-    booking_date DATE NOT NULL,
-    checkin_date DATE,
-    checkout_date DATE,
-    amount DECIMAL(10,2) NOT NULL,
-    booking_status VARCHAR, -- VALUES: CONFIRMED, CANCELLED, PENDING
-    created_at TIMESTAMP,
-    updated_at TIMESTAMP,
-    FOREIGN KEY(customer_id)
-        REFERENCES customers(customer_id),
-    FOREIGN KEY(hotel_id)
-        REFERENCES hotels(hotel_id)
+
+    booking_id              VARCHAR PRIMARY KEY,
+
+    customer_id             VARCHAR,
+
+    hotel_id                VARCHAR,
+
+    booking_date            DATE,
+    checkin_date            DATE,
+    checkout_date           DATE,
+
+    booking_status          VARCHAR,
+
+    room_type               VARCHAR,
+
+    booking_source          VARCHAR,
+
+    nights                  INTEGER,
+    guests                  INTEGER,
+
+    gross_amount            DECIMAL(12,2),
+    discount_amount         DECIMAL(12,2),
+    tax_amount              DECIMAL(12,2),
+    net_amount              DECIMAL(12,2),
+
+    created_at              TIMESTAMP,
+    updated_at              TIMESTAMP
 );
--- Fact table containing payment transactions
+
+-- ==========================================================
+-- PAYMENTS
+-- ==========================================================
+
 CREATE TABLE payments (
-    payment_id VARCHAR PRIMARY KEY,
-    booking_id VARCHAR NOT NULL,
-    payment_date DATE,
-    payment_method VARCHAR, -- CARD, UPI, NETBANKING, WALLET
-    payment_status VARCHAR, -- SUCCESS, FAILED, PENDING
-    created_at TIMESTAMP,
-    updated_at TIMESTAMP,
-    FOREIGN KEY(booking_id)
-        REFERENCES bookings(booking_id)
+
+    payment_id              VARCHAR PRIMARY KEY,
+
+    booking_id              VARCHAR,
+
+    customer_id             VARCHAR,
+
+    payment_date            DATE,
+
+    payment_method          VARCHAR,
+    payment_provider        VARCHAR,
+    payment_gateway         VARCHAR,
+
+    payment_status          VARCHAR,
+    payment_type            VARCHAR,
+
+    currency                VARCHAR,
+
+    transaction_reference   VARCHAR,
+
+    gross_amount            DECIMAL(12,2),
+    discount_amount         DECIMAL(12,2),
+    tax_amount              DECIMAL(12,2),
+
+    processing_fee          DECIMAL(10,2),
+
+    refund_amount           DECIMAL(12,2),
+
+    final_amount            DECIMAL(12,2),
+
+    settlement_days         INTEGER,
+    settlement_date         DATE,
+
+    created_at              TIMESTAMP,
+    updated_at              TIMESTAMP
 );
--- Fact table containing order items transactions
-CREATE TABLE order_items (
-    booking_id VARCHAR NOT NULL,
-    product_id VARCHAR NOT NULL,
-    quantity INTEGER NOT NULL CHECK (quantity > 0),
-    created_at TIMESTAMP,
-    updated_at TIMESTAMP,
-    PRIMARY KEY(booking_id, product_id),
-    FOREIGN KEY(booking_id)
-        REFERENCES bookings(booking_id),
-    FOREIGN KEY(product_id)
-        REFERENCES products(product_id)
-);
--- Fact table containing reviews and comments
+
+-- ==========================================================
+-- REVIEWS
+-- ==========================================================
+
 CREATE TABLE reviews (
-    review_id VARCHAR PRIMARY KEY,
-    booking_id VARCHAR NOT NULL,
-    rating INTEGER CHECK (rating BETWEEN 1 AND 5),
-    review_date DATE,
-    comments VARCHAR,
-    created_at TIMESTAMP,
-    updated_at TIMESTAMP,
-    FOREIGN KEY(booking_id)
-        REFERENCES bookings(booking_id)
+
+    review_id               VARCHAR PRIMARY KEY,
+
+    booking_id              VARCHAR,
+
+    customer_id             VARCHAR,
+
+    hotel_id                VARCHAR,
+
+    rating                  INTEGER,
+
+    review_title            VARCHAR,
+
+    review_text             VARCHAR,
+
+    review_date             DATE,
+
+    created_at              TIMESTAMP,
+    updated_at              TIMESTAMP
+);
+
+-- ==========================================================
+-- ORDER ITEMS
+-- ==========================================================
+
+CREATE TABLE order_items (
+
+    order_item_id           VARCHAR PRIMARY KEY,
+
+    booking_id              VARCHAR,
+
+    customer_id             VARCHAR,
+
+    hotel_id                VARCHAR,
+
+    product_id              VARCHAR,
+
+    quantity                INTEGER,
+
+    unit_price              DECIMAL(10,2),
+
+    total_price             DECIMAL(12,2),
+
+    created_at              TIMESTAMP
 );
