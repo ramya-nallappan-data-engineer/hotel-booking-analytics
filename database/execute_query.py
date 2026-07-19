@@ -12,7 +12,7 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent
 
 DATABASE_PATH = PROJECT_ROOT / "database" / "interview.db"
 
-DEFAULT_QUERY = PROJECT_ROOT / "sql" / "03_aggregations.sql"
+DEFAULT_QUERY = PROJECT_ROOT / "sql" / "04_joins.sql"
 
 # ============================================================
 # EXECUTE QUERY
