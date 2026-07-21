@@ -33,14 +33,11 @@ my_name = "Ramya"
 my_years_of_experience = 10
 current_company = "Hexaware Technologies"
 
-print(f"My name is {my_name}. I have {my_years_of_experience} years of experience as a Data Engineer and currently work at {current_company}. My current salary is {current_salary} and I am {whether_looking_for_job}")
 
 """Find the data type of each variable"""
 print(type(my_name))
 print(type(my_years_of_experience))
 print(type(current_company))
-print(type(current_salary))
-print(type(whether_looking_for_job))
 
 """Swap two variables without using a third variable"""
 a = 10
@@ -277,3 +274,37 @@ bookings = [
     {"customer":"Sara","amount":1800},
     {"customer":"John","amount":900},
 ]
+
+
+#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+
+
+#
+# Complete the 'fizzBuzz' function below.
+#
+# The function accepts INTEGER n as parameter.
+#
+
+def fizzBuzz(n):
+    # Write your code here
+    for i in range(1, n+1):
+        if (i%3)==0 and (i%5)==0:
+            return 'FizzBuzz'
+        elif (i%3):
+            return 'Fizz'
+        elif (i%5):
+            return 'Buzz'
+        else:
+            return i
+
+if __name__ == '__main__':
+    n = int(input().strip())
+
+    print(fizzBuzz(15))
