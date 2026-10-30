@@ -1,153 +1,66 @@
-# 🏨 Hotel Booking Analytics Lab
+# Hotel Booking Analytics
 
-### End-to-End Data Engineering & SQL Interview Practice Platform
+A synthetic-data analytics project: Python generators create a connected hotel-booking dataset, DuckDB stores it, and SQL scripts analyse it. It doubles as a practice environment for SQL, data modelling and ETL.
 
-A production-inspired Hotel Booking Analytics platform built using **Python**, **DuckDB**, and **SQL**.
+## Dataset
 
-The project generates realistic synthetic hotel booking data with business relationships across multiple entities, enabling hands-on practice for **SQL interviews**, **Data Engineering**, **Analytics Engineering**, and **Business Intelligence**.
-
----
-
-## 🌟 Why this project?
-
-Most SQL interview datasets contain only a few disconnected tables with limited business logic.
-
-This project was created to simulate a realistic hotel booking platform that resembles production data. It includes customers, hotels, bookings, payments, reviews, and ancillary product purchases connected through meaningful business relationships.
-
-The objective is to provide a complete environment for:
-
-- SQL Interview Preparation
-- Data Engineering Practice
-- ETL Development
-- Data Modeling
-- Analytical Reporting
-- Dashboard Development
-
----
-
-## 🚀 Key Features
-
-- ✅ Synthetic data generation using Python
-- ✅ Realistic business rules and relationships
-- ✅ Seven relational datasets
-- ✅ DuckDB integration
-- ✅ Data validation framework
-- ✅ Analytics-ready data model
-- ✅ Power BI ready
-- ✅ SQL interview practice environment
-
----
-
-## 📊 Dataset Summary
+Seven related tables with business relationships between them.
 
 | Dataset | Records |
-|----------|---------:|
+|---|---:|
 | Customers | 500 |
 | Hotels | 100 |
 | Products | 30 |
 | Bookings | 10,000 |
 | Payments | 10,000 |
 | Reviews | 6,000+ |
-| Order Items | 13,000+ |
+| Order items | 13,000+ |
 
----
-
-## 🛠 Tech Stack
-
-| Category | Technology |
-|----------|------------|
-| Programming | Python |
-| Data Processing | Pandas |
-| Synthetic Data | Faker |
-| Database | DuckDB |
-| Query Language | SQL |
-| Version Control | Git & GitHub |
-| IDE | PyCharm |
-
----
-
-## 📁 Project Structure
-
-```text
-hotel-booking-analytics-lab/
-
-├── generators/
-├── database/
-├── schema/
-├── sql/
-├── docs/
-├── data/
-├── tests/
-├── main.py
-├── config.py
-├── requirements.txt
-├── README.md
-└── LICENSE
-```
-
----
-
-## 📈 Project Workflow
+## Workflow
 
 ```
-Synthetic Data
-        │
-        ▼
-Python Generators
-        │
-        ▼
-CSV Files
-        │
-        ▼
-DuckDB Database
-        │
-        ▼
-SQL Analytics
-        │
-        ▼
-Power BI Dashboard
+Python generators -> CSV files -> DuckDB database -> SQL analytics
+                                      |
+                              data validation checks
 ```
 
----
+## Tech stack
 
-## 🎯 Learning Objectives
+Python, pandas, NumPy, Faker, DuckDB, SQL.
 
-This project is designed to strengthen practical skills in:
+## Quickstart
 
-- SQL
-- Data Engineering
-- ETL Pipelines
-- Data Modeling
-- DuckDB
-- Analytics Engineering
-- Business Intelligence
-- Dashboard Development
+```bash
+git clone https://github.com/ramya-nallappan-data-engineer/hotel-booking-analytics.git
+cd hotel-booking-analytics
+pip install -r requirements.txt
+python main.py        # generates the seven CSV files into data/
+```
 
----
+`database/` contains the DuckDB loading, validation and query scripts, and `schema/schema.sql` defines the tables.
 
-## 🗺 Roadmap
+## Repository layout
 
-- [x] Synthetic Data Generation
-- [x] Data Validation
-- [x] DuckDB Integration
-- [ ] SQL Interview Question Library
-- [ ] Analytical SQL Views
-- [ ] Power BI Dashboard
-- [ ] dbt Models
-- [ ] Airflow Orchestration
-- [ ] Docker Support
-- [ ] GitHub Actions CI/CD
+```
+generators/   Synthetic data generators, one per table
+database/     DuckDB creation, loading, validation and query helpers
+schema/       Table definitions
+sql/          Analytical SQL scripts
+docs/         Diagrams
+data/         Generated CSV files
+main.py       Runs all generators
+config.py     Generation settings
+```
 
----
+## Roadmap
 
-## 🤝 Contributions
+- [ ] Analytical SQL views and a query library
+- [ ] Dashboard on top of the DuckDB data
+- [ ] dbt models
+- [ ] Airflow orchestration
+- [ ] Docker support
+- [ ] GitHub Actions CI
 
-Suggestions and improvements are always welcome.
+## License
 
-Feel free to fork the repository, open issues, or submit pull requests.
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License.
+MIT
