@@ -46,7 +46,6 @@ generators/   Synthetic data generators, one per table
 database/     DuckDB creation, loading, validation and query helpers
 schema/       Table definitions
 sql/          Analytical SQL scripts
-docs/         Diagrams
 data/         Generated CSV files
 main.py       Runs all generators
 config.py     Generation settings
